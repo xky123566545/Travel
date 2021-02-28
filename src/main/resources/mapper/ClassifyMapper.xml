@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.goodsclassify.mapper.ClassifyMapper">
+<!--    新增商品分类-->
+    <insert id="saveClassify" parameterType="com.example.demo.goodsclassify.entity.ClassifyInfo">
+        insert into classify_info
+        (
+            classify_id,
+            classify_name,
+            belong_to,
+            remarks,
+            is_delete,
+            create_user,
+            create_time,
+            update_user,
+            update_time,
+            version
+        )
+        values
+        (
+             #{classifyId},
+             #{classifyName},
+             #{belongTo},
+             #{remarks},
+             0,
+             #{createUser},
+             now(),
+             #{createUser},
+             now(),
+             0
+        )
+    </insert>
+<!--    查询分类详情-->
+    <select id="getClassifyByClassifyId" parameterType="java.lang.String" resultType="com.example.demo.goodsclassify.entity.ClassifyInfo">
+        select *
+        from classify_info
+        where classify_id = #{classifyId}
+    </select>
+<!--    查询用户信息列表-->
+    <select id="getClassify" parameterType="java.util.Map" resultType="com.example.demo.goodsclassify.entity.ClassifyInfo">
+        select *
+        from classify_info
+        <where>
+        1 = 1
+        <if test="classifyInfo != null">
+            <if test="classifyInfo.classifyName != null and classifyInfo.classifyName != ''">
+                    and classify_name like concat('%',#{classifyInfo.classifyName},'%')
+            </if>
+            <if test="classifyInfo.belongTo != null and classifyInfo.belongTo != ''">
+                    and belong_to = #{classifyInfo.belongTo}
+            </if>
+            <if test="classifyInfo.remarks != null and classifyInfo.remarks != ''">
+                    and remarks like concat('%',#{classifyInfo.remarks},'%')
+            </if>
+        </if>
+        and is_delete = 0
+        </where>
+    </select>
+<!--修改分类信息-->
+    <update id="updateClassify" parameterType="com.example.demo.goodsclassify.entity.ClassifyInfo">
+        update classify_info
+        set
+            classify_name = #{classifyName},
+            belong_to     = #{belongTo},
+            remarks       = #{remarks},
+            update_user   = #{updateUser},
+            update_time   = now(),
+            version       = version + 1
+        where classify_id = #{classifyId}
+        and version  = #{version}
+    </update>
+<!--    删除分类信息-->
+    <update id="deleteClassify" parameterType="java.lang.String">
+        update classify_info
+        set
+            is_delete = 1,
+            update_user = #{userId},
+            update_time = now(),
+            version = version + 1
+        where classify_id in
+            <foreach collection="list" close=")" open="(" item="item" separator="," index="index">
+                #{item}
+            </foreach>
+    </update>
+</mapper>

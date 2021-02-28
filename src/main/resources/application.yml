@@ -1,0 +1,47 @@
+spring:
+  datasource:
+    name: travel
+    url: jdbc:mysql://localhost:3306/travel?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  profiles:
+    active: dev
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    connect-timeout: 5000
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+  tengxun:
+    accessKey: AKIDf9SbXH0kV3OXlnmbQ2SbSS8ZjinhnuAD
+    secretKey: A6nMnpa8OPFwAA0awWqpUR9i27zd2BVa
+    bucket: ap-chengdu
+    bucketName: xky-1301905305
+    path: https://xky-1301905305.cos.ap-chengdu.myqcloud.com
+    qianzui: travel
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
+  type-aliases-package: com.example.demo.user.bean
+  configuration:
+    map-underscore-to-camel-case: true
+
+config:
+  accessToken-expireTime: 3600
+#  refreshToken-expireTime: 604800
+  refreshToken-expireTime: 604800
+  encrypt-jwtKey: U0JBUElOENhspJrzkyNjQ1NA
+
+constants:
+  qqAppId : 101513767
+  qqAppSecret : b1d978cefcf405388893d8e686d307b0
+  qqRedirectUrl: http://2f991p6776.zicp.vip//QQLogin
+
+  weCatAppId : wxeb20542862f759b4
+  weCatAppSecret : c6e5aca424fb19d2354691358ce70f48
+  weCatRedirectUrl : http://2f991p6776.zicp.vip

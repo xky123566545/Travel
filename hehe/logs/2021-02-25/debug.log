@@ -1,0 +1,72 @@
+2021-02-25 21:26:13 60557 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.saveOrder - ==>  Preparing: insert into order_info values ( ?, ?, ?, ?, ?, ?, ?, 1, ?, ?, 0, ?, now(), ?, now(), 0 )
+2021-02-25 21:26:13 60585 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.saveOrder - ==> Parameters: order814609223676592128(String), HTD813801460390166528,JD812977412462608384(String), 豪华双人床,杭州西湖(String), 203,198(String), 10,50(String), 60(String), 11930(String), 0(String), 123(String), 123(String), 123(String)
+2021-02-25 21:26:13 60590 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.saveOrder - <==    Updates: 1
+2021-02-25 21:26:13 60616 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.saveOrderDetail - ==>  Preparing: insert into order_detail values ( ?, ?, ?, ?, ?, ?, 0, 0, ?, now(), ?, now(), 0 ) , ( ?, ?, ?, ?, ?, ?, 0, 0, ?, now(), ?, now(), 0 )
+2021-02-25 21:26:13 60617 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.saveOrderDetail - ==> Parameters: orderD814609223684980736(String), order814609223676592128(String), HTD813801460390166528(String), 豪华双人床(String), 203(String), 10(String), 123(String), 123(String), orderD814609223693369344(String), order814609223676592128(String), JD812977412462608384(String), 杭州西湖(String), 198(String), 50(String), 123(String), 123(String)
+2021-02-25 21:26:13 60622 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.saveOrderDetail - <==    Updates: 2
+2021-02-25 21:26:13 60623 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.countGoodsAllPrice - ==>  Preparing: update order_detail set goods_all_price = goods_price * goods_cnt where order_detail_id in ( ? , ? )
+2021-02-25 21:26:13 60623 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.countGoodsAllPrice - ==> Parameters: orderD814609223684980736(String), orderD814609223693369344(String)
+2021-02-25 21:26:13 60627 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.countGoodsAllPrice - <==    Updates: 2
+2021-02-25 21:26:13 60628 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.cart.mapper.CartMapper.deleteCart - ==>  Preparing: update cart_info set is_delete = 1, update_user = ?, update_time = now(), version = version + 1 where goods_id in ( ? , ? ) and user_name = ?
+2021-02-25 21:26:13 60629 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.cart.mapper.CartMapper.deleteCart - ==> Parameters: 123(String), HTD813801460390166528(String), JD812977412462608384(String), 123(String)
+2021-02-25 21:26:13 60633 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.cart.mapper.CartMapper.deleteCart - <==    Updates: 0
+2021-02-25 21:26:13 60634 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.updateHotelStock - ==>  Preparing: update hotel_detail set hotel_type_stock = hotel_type_stock - ? where hotel_type_id = ?
+2021-02-25 21:26:13 60634 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.updateHotelStock - ==> Parameters: 10(Integer), HTD813801460390166528(String)
+2021-02-25 21:26:13 60636 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.updateHotelStock - <==    Updates: 1
+2021-02-25 21:26:13 60636 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.updateHotelStock - ==>  Preparing: update hotel_detail set hotel_type_stock = hotel_type_stock - ? where hotel_type_id = ?
+2021-02-25 21:26:13 60636 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.updateHotelStock - ==> Parameters: 50(Integer), JD812977412462608384(String)
+2021-02-25 21:26:13 60637 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.updateHotelStock - <==    Updates: 0
+2021-02-25 21:30:12 75652 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.saveOrder - ==>  Preparing: insert into order_info values ( ?, ?, ?, ?, ?, ?, ?, 1, ?, ?, 0, ?, now(), ?, now(), 0 )
+2021-02-25 21:30:12 75681 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.saveOrder - ==> Parameters: order814610225620320256(String), HTD813801460390166528,JD812977412462608384(String), 豪华双人床,杭州西湖(String), 203,198(String), 10,50(String), 60(String), 11930(String), 0(String), 123(String), 123(String), 123(String)
+2021-02-25 21:30:12 75687 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.saveOrder - <==    Updates: 1
+2021-02-25 21:30:12 75712 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.saveOrderDetail - ==>  Preparing: insert into order_detail values ( ?, ?, ?, ?, ?, ?, 0, 0, ?, now(), ?, now(), 0 ) , ( ?, ?, ?, ?, ?, ?, 0, 0, ?, now(), ?, now(), 0 )
+2021-02-25 21:30:12 75713 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.saveOrderDetail - ==> Parameters: orderD814610225624514560(String), order814610225620320256(String), HTD813801460390166528(String), 豪华双人床(String), 203(String), 10(String), 123(String), 123(String), orderD814610225632903168(String), order814610225620320256(String), JD812977412462608384(String), 杭州西湖(String), 198(String), 50(String), 123(String), 123(String)
+2021-02-25 21:30:12 75718 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.saveOrderDetail - <==    Updates: 2
+2021-02-25 21:30:12 75719 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.countGoodsAllPrice - ==>  Preparing: update order_detail set goods_all_price = goods_price * goods_cnt where order_detail_id in ( ? , ? )
+2021-02-25 21:30:12 75720 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.countGoodsAllPrice - ==> Parameters: orderD814610225624514560(String), orderD814610225632903168(String)
+2021-02-25 21:30:12 75726 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.countGoodsAllPrice - <==    Updates: 2
+2021-02-25 21:30:12 75727 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.cart.mapper.CartMapper.deleteCart - ==>  Preparing: update cart_info set is_delete = 1, update_user = ?, update_time = now(), version = version + 1 where goods_id in ( ? , ? ) and user_name = ?
+2021-02-25 21:30:12 75727 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.cart.mapper.CartMapper.deleteCart - ==> Parameters: 123(String), HTD813801460390166528(String), JD812977412462608384(String), 123(String)
+2021-02-25 21:30:12 75729 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.cart.mapper.CartMapper.deleteCart - <==    Updates: 0
+2021-02-25 21:30:12 75729 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.updateHotelStock - ==>  Preparing: update hotel_detail set hotel_type_stock = hotel_type_stock - ? where hotel_type_id = ?
+2021-02-25 21:30:12 75730 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.updateHotelStock - ==> Parameters: 10(Integer), HTD813801460390166528(String)
+2021-02-25 21:30:12 75733 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.updateHotelStock - <==    Updates: 1
+2021-02-25 21:30:12 75733 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.updateScenicStock - ==>  Preparing: update scenic_info set scenic_stock = scenic_stock - ? where scenic_id = ?
+2021-02-25 21:30:12 75734 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.updateScenicStock - ==> Parameters: 50(Integer), JD812977412462608384(String)
+2021-02-25 21:30:12 75737 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.updateScenicStock - <==    Updates: 1

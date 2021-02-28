@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.login.mapper.LoginMapper">
+
+<!--    查询账户密码信息-->
+    <select id="findByUserName" parameterType="java.lang.String" resultType="com.example.demo.login.entity.LoginEntity">
+        select
+            user_id         'userId',
+            user_name       'username',
+            user_password   'password'
+        from user_info
+        where user_name = #{username}
+    </select>
+</mapper>

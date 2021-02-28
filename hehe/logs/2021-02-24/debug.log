@@ -1,0 +1,156 @@
+2021-02-24 14:16:18 37044 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-02-24 14:16:18 37069 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-02-24 14:16:18 37083 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-02-24 14:16:18 37087 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-02-24 14:16:18 37088 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 20(Integer)
+2021-02-24 14:16:18 37094 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 8
+2021-02-24 14:30:09 867880 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 14:30:09 867880 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 14:30:09 867882 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 14:36:41 1259800 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 14:36:41 1259801 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 14:36:41 1259803 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 15:01:43 2762460 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 15:01:43 2762462 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 15:01:43 2762469 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 15:07:04 3083062 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 15:07:04 3083062 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 15:07:04 3083064 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 15:08:12 3151220 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 15:08:12 3151221 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 15:08:12 3151222 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 15:10:49 3308442 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 15:10:49 3308443 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 15:10:49 3308444 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 15:11:23 3342103 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 15:11:23 3342104 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 15:11:23 3342105 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 15:12:01 3380396 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 15:12:01 3380396 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 15:12:01 3380398 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 15:12:52 3431425 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 15:12:52 3431425 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 15:12:52 3431426 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 15:32:45 4624369 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 15:32:45 4624370 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 15:32:45 4624376 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 15:49:39 5638298 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 15:49:39 5638299 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 15:49:39 5638301 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 15:51:04 5723305 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 15:51:04 5723306 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 15:51:04 5723309 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 15:52:37 5816039 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 15:52:37 5816040 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 15:52:37 5816041 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 16:02:24 6403752 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 16:02:24 6403754 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 16:02:24 6403758 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 16:06:47 6665786 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 16:06:47 6665787 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 16:06:47 6665789 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 16:07:52 6731424 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 16:07:52 6731425 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 16:07:52 6731426 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 16:07:54 6733686 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 16:07:54 6733686 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 16:07:54 6733687 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 16:07:59 6738372 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 16:07:59 6738372 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 16:07:59 6738373 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 16:09:22 6820805 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 16:09:22 6820806 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 16:09:22 6820807 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 16:11:51 6970167 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 16:11:51 6970167 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 16:11:51 6970169 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 16:13:29 7067907 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 16:13:29 7067908 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 16:13:29 7067909 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 16:28:31 31844 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 16:28:31 31871 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 16:28:31 31888 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 16:29:36 50353 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 16:29:36 50379 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 16:29:36 50392 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-02-24 16:44:24 122250 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-02-24 16:44:24 122257 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-02-24 16:44:24 122268 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1

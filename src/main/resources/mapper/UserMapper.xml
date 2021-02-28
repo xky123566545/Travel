@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.user.mapper.UserMapper">
+<!--统计用户账号数量-->
+    <select id="countUserName" parameterType="java.lang.String" resultType="int">
+        select
+            count(user_name)
+        from   user_info
+        where  user_name = #{userName}
+        and is_delete = 0
+    </select>
+
+    <insert id="saveUser" parameterType="com.example.demo.user.bean.UserInfo">
+        insert into user_info
+        (
+            user_id,
+            user_name,
+            user_password,
+            user_role,
+            user_sex,
+            user_phone,
+            user_email,
+            user_age,
+            belong_to,
+            user_picture,
+            is_delete,
+            create_user,
+            create_time,
+            update_user,
+            update_time,
+            version
+        )
+        values
+        (
+            #{userId},
+            #{userName},
+            #{userPassword},
+            #{userRole},
+            #{userSex},
+            #{userPhone},
+            #{userEmail},
+            #{userAge},
+            #{belongTo},
+            #{userPicture},
+            0,
+            #{createUser},
+            now(),
+            #{createUser},
+            now(),
+            0
+        )
+    </insert>
+<!--    根据用户编号查询用户详情-->
+    <select id="getUserByUserId" resultType="com.example.demo.user.bean.UserInfo">
+        select *
+        from user_info
+        where user_id = #{userId}
+        and is_delete = 0
+    </select>
+<!--    查询用户信息列表-->
+    <select id="getUsers" parameterType="java.util.Map" resultType="com.example.demo.user.bean.UserInfo">
+        select *
+        from user_info u
+        <where>
+        1=1
+        <if test="userInfo != null" >
+            <if test="userInfo.userName!=null and userInfo.userName!=''">
+                and u.user_name like concat('%' , #{userInfo.userName} , '%')
+            </if>
+            <if test="userInfo.userRole!=null and userInfo.userRole!=''">
+                and u.user_role like concat('%' , #{userInfo.userRole} , '%')
+            </if>
+            <if test="userInfo.userId!=null and userInfo.userId!=''">
+                and u.user_id like concat('%' , #{userInfo.userId} , '%')
+            </if>
+            <if test="userInfo.userSex!=null and userInfo.userSex!=''">
+                and u.user_sex =  #{userInfo.userSex}
+            </if>
+            <if test="userInfo.userPhone!=null and userInfo.userPhone!=''">
+                and u.user_phone like concat('%' , #{userInfo.userPhone} , '%')
+            </if>
+            <if test="userInfo.userEmail!=null and userInfo.userEmail!=''">
+                and u.user_email like concat('%' , #{userInfo.userEmail} , '%')
+            </if>
+            <if test="userInfo.belongTo!=null and userInfo.belongTo!=''">
+                and u.belong_to =  #{userInfo.belongTo}
+            </if>
+            <if test="userInfo.userAge!=null and userInfo.userAge!=''">
+                and u.user_age like concat('%' , #{userInfo.userAge} , '%')
+            </if>
+        </if>
+            and is_delete = 0
+        </where>
+    </select>
+<!--    修改用户信息-->
+    <update id="updateUser" parameterType="com.example.demo.user.bean.UserInfo">
+        update user_info
+        set
+            user_name    = #{userName},
+            user_role    = #{userRole},
+            user_sex     = #{userSex},
+            user_phone   = #{userPhone},
+            user_email   = #{userEmail},
+            user_age     = #{userAge},
+            user_picture = #{userPicture},
+            user_password= #{userPassword},
+            update_user  = #{userId},
+            update_time  = now(),
+            version      = version + 1
+        where is_delete = 0
+        and version = #{version}
+        and user_id = #{userId}
+    </update>
+<!--    删除用户-->
+    <update id="deleteUser" parameterType="java.lang.String">
+        update user_info
+        set
+            is_delete   = 1,
+            update_user = #{updateUser},
+            update_time = now(),
+            version     = version + 1
+        where user_id in
+            <foreach collection="list" index="index" separator="," item="item" open="(" close=")">
+                #{item}
+            </foreach>
+    </update>
+</mapper>

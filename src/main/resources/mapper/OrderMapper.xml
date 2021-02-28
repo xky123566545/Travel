@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.order.mapper.OrderMapper">
+<!--新增订单信息-->
+    <insert id="saveOrder" parameterType="com.example.demo.order.entity.OrderInfo">
+        insert into order_info
+        values
+        (
+           #{orderId},
+           #{goodsId},
+           #{goodsName},
+           #{goodsPrice},
+           #{goodsCnt},
+           #{allCnt},
+           #{orderPrice},
+           1,
+           #{cartId},
+           #{userId},
+           0,
+           #{createUser},
+           now(),
+           #{createUser},
+           now(),
+           0
+        )
+    </insert>
+<!--    新增订单明细-->
+    <insert id="saveOrderDetail" parameterType="com.example.demo.order.entity.OrderDetail">
+        insert into order_detail
+        values
+            <foreach collection="orderDetails" separator="," item="item" index="index">
+                (
+                    #{item.orderDetailId},
+                    #{item.orderId},
+                    #{item.goodsId},
+                    #{item.goodsName},
+                    #{item.goodsPrice},
+                    #{item.goodsCnt},
+                    0,
+                    0,
+                    #{item.createUser},
+                    now(),
+                    #{item.createUser},
+                    now(),
+                    0
+                )
+            </foreach>
+    </insert>
+<!--    计算订单明细总价格-->
+    <update id="countGoodsAllPrice" parameterType="java.lang.String">
+        update order_detail
+        set
+            goods_all_price = goods_price * goods_cnt
+        where order_detail_id in
+            <foreach collection="goodsDetailId" index="index" item="item" separator="," close=")" open="(">
+                #{item}
+            </foreach>
+    </update>
+<!--    修改景点库存量-->
+    <update id="updateScenicStock">
+        update scenic_info
+        set
+            scenic_stock = scenic_stock - #{goodsCnt}
+        where scenic_id = #{goodsId}
+    </update>
+    <!--    修改酒店库存量-->
+    <update id="updateHotelStock" >
+        update hotel_detail
+        set
+            hotel_type_stock = hotel_type_stock - #{goodsCnt}
+        where hotel_type_id = #{goodsId}
+    </update>
+<!--    映射订单明细-->
+    <resultMap id="listOrderDetail" type="com.example.demo.order.entity.OrderInfo">
+        <id property="orderId" column="order_id" jdbcType="VARCHAR"></id>
+        <result property="goodsId" column="goods_id" jdbcType="VARCHAR"></result>
+        <result property="goodsName" column="goods_name" jdbcType="VARCHAR"></result>
+        <result property="goodsPrice" column="goods_price" jdbcType="VARCHAR"></result>
+        <result property="goodsCnt" jdbcType="VARCHAR" column="goods_cnt"></result>
+        <result property="allCnt" column="all_cnt" jdbcType="VARCHAR"></result>
+        <result property="orderPrice" column="order_price" jdbcType="VARCHAR"></result>
+        <result property="orderState" column="order_state" jdbcType="VARCHAR"></result>
+        <result property="cartId" column="cart_id" jdbcType="VARCHAR"></result>
+        <result property="userId" column="user_id" jdbcType="VARCHAR"></result>
+        <result property="createUser" column="create_user" jdbcType="VARCHAR"></result>
+        <result property="createTime" column="create_time" jdbcType="DATE"></result>
+        <result property="version" column="version" jdbcType="VARCHAR"></result>
+        <collection property="orderDetails" ofType="com.example.demo.order.entity.OrderDetail">
+            <result property="orderDetailId" column="order_detail_id" jdbcType="VARCHAR"></result>
+            <result property="orderId" column="order_id" jdbcType="VARCHAR"></result>
+            <result property="goodsId" column="goods_id" jdbcType="VARCHAR"></result>
+            <result property="goodsName" column="goods_name" jdbcType="VARCHAR"></result>
+            <result property="goodsPrice" column="goods_price" jdbcType="VARCHAR"></result>
+            <result property="goodsCnt" column="goods_cnt" jdbcType="VARCHAR"></result>
+            <result property="goodsAllPrice" column="goods_all_price" jdbcType="VARCHAR"></result>
+        </collection>
+    </resultMap>
+<!--    列表查询订单信息-->
+    <select id="listOrder" resultMap="listOrderDetail">
+        select *
+        from order_info o1
+        inner join order_detail o2
+        on o1.order_id = o2.order_id
+        where o1.is_delete = 0
+        and o2.is_delete = 0
+    </select>
+
+<!--    修改订单状态-->
+    <update id="updateOrderState" parameterType="com.example.demo.order.entity.OrderInfo">
+        update order_info
+        set
+            order_state = #{orderState},
+            update_user = #{updateUser},
+            update_time = now(),
+            version = version + 1
+        where order_id = #{orderId}
+        and version = #{version}
+    </update>
+<!--    增加景点库存量-->
+    <update id="addScenicStock" parameterType="com.example.demo.order.entity.OrderInfo">
+        update scenic_info
+        set
+            scenic_stock = scenic_stock + #{cnt}
+        where scenic_id = #{goodsId}
+    </update>
+    <!--    增加酒店库存量-->
+    <update id="addHotelStock" parameterType="com.example.demo.order.entity.OrderInfo">
+        update hotel_detail
+        set
+            hotel_type_stock = hotel_type_stock + #{cnt}
+        where hotel_type_id = #{goodsId}
+    </update>
+</mapper>

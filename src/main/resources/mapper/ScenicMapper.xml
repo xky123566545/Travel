@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.scenic.mapper.ScenicMapper">
+<!--    新增景点信息-->
+    <insert id="saveScenic" parameterType="com.example.demo.scenic.entity.ScenicInfo">
+        insert into scenic_info
+        (
+            scenic_id,
+            scenic_name,
+            img_path,
+            scenic_price,
+            scenic_comment,
+            scenic_characteristic,
+            scenic_star,
+            user_id,
+            scenic_stock,
+            province_id,
+            city_id,
+            area_id,
+            scenic_address,
+            classify_id,
+            is_delete,
+            create_user,
+            create_time,
+            update_user,
+            update_time,
+            version
+        )
+        values
+        (
+            #{scenicId},
+            #{scenicName},
+            #{imgPath},
+            #{scenicPrice},
+            #{scenicComment},
+            #{scenicCharacteristic},
+            #{scenicStar},
+            #{userId},
+            #{scenicStock},
+            #{provinceId},
+            #{cityId},
+            #{areaId},
+            #{scenicAddress},
+            #{classifyId},
+            0,
+            #{createUser},
+            now(),
+            #{createUser},
+            now(),
+            0
+        )
+    </insert>
+<!--    统计景点是否存在-->
+    <select id="countScenicName" parameterType="java.lang.String" resultType="int">
+        select count(scenic_name)
+        from scenic_info
+        where scenic_name = #{scenicName}
+        and is_delete = 0
+    </select>
+<!--查询景点详情-->
+    <select id="getScenicByScenicId" parameterType="java.lang.String" resultType="com.example.demo.scenic.entity.ScenicInfo">
+        select *
+        from scenic_info
+        where scenic_id = #{scenicId}
+        and is_delete = 0
+    </select>
+<!--列表查询景点信息-->
+    <select id="getScenic" parameterType="java.util.Map" resultType="com.example.demo.scenic.entity.ScenicInfo">
+        select *
+        from scenic_info
+        <where>
+        1 = 1
+        <if test="scenicInfo != null">
+            <if test="scenicInfo.scenicName != null and scenicInfo.scenicName != ''">
+                    and scenic_name like concat('%',#{scenicInfo.scenicName},'%')
+            </if>
+            <if test="scenicInfo.scenicPrice != null and scenicInfo.scenicPrice != ''">
+                    and scenic_price like concat('%',#{scenicInfo.scenicPrice},'%')
+            </if>
+            <if test="scenicInfo.scenicComment != null and scenicInfo.scenicComment != ''">
+                and scenic_comment like concat('%',#{scenicInfo.scenicComment},'%')
+            </if>
+            <if test="scenicInfo.scenicCharacteristic != null and scenicInfo.scenicCharacteristic != ''">
+                and scenic_characteristic like concat('%',#{scenicInfo.scenicCharacteristic},'%')
+            </if>
+            <if test="scenicInfo.scenicStar != null and scenicInfo.scenicStar != ''">
+                and scenic_star like concat('%',#{scenicInfo.scenicStar},'%')
+            </if>
+            <if test="scenicInfo.provinceId != null and scenicInfo.provinceId != ''">
+                and province_id like concat('%',#{scenicInfo.provinceId},'%')
+            </if>
+            <if test="scenicInfo.cityId != null and scenicInfo.cityId != ''">
+                and city_id like concat('%',#{scenicInfo.cityId},'%')
+            </if>
+            <if test="scenicInfo.scenicAddress != null and scenicInfo.scenicAddress != ''">
+                and scenic_address like concat('%',#{scenicInfo.scenicAddress},'%')
+            </if>
+            <if test="scenicInfo.classifyId != null and scenicInfo.classifyId != ''">
+                and classify_id like concat('%',#{scenicInfo.classifyId},'%')
+            </if>
+        </if>
+            and is_delete = 0
+        </where>
+    </select>
+<!--    修改景点信息-->
+    <update id="updateScenic" parameterType="com.example.demo.scenic.entity.ScenicInfo">
+        update scenic_info
+        set
+            scenic_name     = #{scenicName},
+            img_path        = #{imgPath},
+            scenic_price    = #{scenicPrice},
+            scenic_comment  = #{scenicComment},
+            scenic_characteristic = #{scenicCharacteristic},
+            user_id         = #{userId},
+            scenic_stock    = #{scenicStock},
+            province_id     = #{provinceId},
+            city_id         = #{cityId},
+            area_id         = #{areaId},
+            scenic_address  = #{scenicAddress},
+            classify_id     = #{classifyId},
+            update_user     = #{updateUser},
+            update_time     = now(),
+            version         = version + 1
+        where version = #{version}
+        and scenic_id = #{scenicId}
+    </update>
+<!--    删除景点信息-->
+    <update id="deleteScenic" parameterType="java.lang.String">
+        update scenic_info
+        set
+            is_delete       = 1,
+            update_user     = #{userId},
+            update_time     = now(),
+            version         = version + 1
+        where scenic_id in
+            <foreach collection="list" index="index" separator="," item="item" open="(" close=")">
+                #{item}
+            </foreach>
+    </update>
+</mapper>

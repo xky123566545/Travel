@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.cart.mapper.CartMapper">
+<!--    查询购物车编号-->
+    <select id="getUserName" parameterType="java.lang.String" resultType="java.lang.String">
+        select cart_id
+        from cart_info
+        where user_name = #{userName}
+        and is_delete = 0
+    </select>
+<!--    统计商品编号是否存在-->
+    <select id="countGoodsId" parameterType="java.lang.String" resultType="int">
+        select count(goods_id)
+        from cart_info
+        where goods_id = #{goodsId}
+        and user_name = #{userName}
+    </select>
+<!--    添加商品数量-->
+    <update id="addGoodsCnt">
+        update cart_info
+        set
+            goods_cnt       = goods_cnt + #{goodsCnt}
+        where goods_id = #{goodsId}
+        and user_name = #{userName}
+    </update>
+<!--    新增购物车信息-->
+    <insert id="saveCart" parameterType="com.example.demo.cart.entity.CartInfo">
+        insert into cart_info
+        (
+            cart_id,
+            goods_id,
+            goods_cnt,
+            is_delete,
+            user_name,
+            create_user,
+            create_time,
+            update_user,
+            update_time,
+            version,
+            goods_name,
+            goods_price,
+            img_path,
+            goods_star
+        )
+        values
+        (
+            #{cartId},
+            #{goodsId},
+            #{goodsCnt},
+            0,
+            #{userName},
+            #{userName},
+            now(),
+            #{userName},
+            now(),
+            0,
+            #{goodsName},
+            #{goodsPrice},
+            #{imgPath},
+            #{goodsStar}
+        )
+    </insert>
+<!--    计算商品总价-->
+    <update id="countGoodsAllPrice" parameterType="java.lang.String">
+        update cart_info
+        set
+            goods_all_price = goods_price * goods_cnt
+        where user_name = #{userName}
+        and goods_id = #{goodsId}
+    </update>
+<!--    列表查询购物车信息-->
+    <select id="listCart" parameterType="java.util.Map" resultType="com.example.demo.cart.entity.CartInfo">
+        select *
+        from cart_info c1
+        where is_delete = 0
+    </select>
+<!--    修改购物车商品数量-->
+    <update id="updateCart" parameterType="com.example.demo.cart.entity.CartInfo">
+        update cart_info
+        set
+            goods_cnt   = #{goodsCnt},
+            update_user = #{updateUser},
+            update_time = now(),
+            version     = version + 1
+        where goods_id  = #{goodsId}
+        and user_name   = #{userName}
+    </update>
+<!--    删除购物车信息-->
+    <update id="deleteCart" parameterType="java.lang.String">
+        update cart_info
+        set
+            is_delete = 1,
+            update_user = #{userName},
+            update_time = now(),
+            version     = version + 1
+        where goods_id in
+            <foreach collection="list" open="(" close=")" index="index" item="item" separator=",">
+                #{item}
+            </foreach>
+        and user_name = #{userName}
+    </update>
+</mapper>
