@@ -36,8 +36,9 @@
             	$("#sessionId").val(data.sessionId);
             	//生成二维码
             	var qrcode = new QRCode(document.getElementById("code"), {
-                    width : 200,
-                    height : 200
+                    width : 300,
+                    height : 300,
+                    align : "middle"
                 });
                 qrcode.makeCode(data.uri);      
                 //监听是否成功登录(每秒执行一次 getInfoJson方法)
@@ -46,10 +47,28 @@
     	});
     }
 </script>
-<body>
-<img src="https://xky-1301905305.cos.ap-chengdu.myqcloud.com/travel/2021/1/27/25e69f2c-fbe1-4b10-9830-6c7ee895d5a0.png" alt="请先扫描二维码关注公众号" width="200" height="200">
-<br/><br/><br/><br/>
-<input type="button" value="微信登录" th:onclick="wechatLogin()" />
+
+<body class="aaa">
+<style>
+    img{
+     position: absolute;
+     top: 8%;
+     left: 45%;
+     margin-top: -25px;
+     margin-left: -25px;
+    }
+    .aaa{
+     background-color: rgb(51, 51, 51);
+     border: 2px;
+    }
+    p{
+     color: aliceblue;
+    }
+</style>
+<div><img src="https://xky-1301905305.cos.ap-chengdu.myqcloud.com/travel/2021/1/27/25e69f2c-fbe1-4b10-9830-6c7ee895d5a0.png" alt="请先扫描二维码关注公众号" width="300" height="300" align="middle"></div>
+<p align="center" >请先扫码关注公众号</p>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<div align="middle"><input type="button" value="微信登录" th:onclick="wechatLogin()" style="vertical-align: middle"/></div>
 <input type="hidden" id="sessionId"/>
 <br/><br/><br/><br/>
 <div id="code"></div> 

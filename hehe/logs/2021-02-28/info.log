@@ -212,3 +212,9 @@
                     s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingGET_1
 2021-02-28 22:59:51 15626 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
                     com.example.demo.DemoApplication - Started DemoApplication in 14.994 seconds (JVM running for 19.317)
+2021-02-28 23:06:25 409999 [34mINFO [0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-28 23:06:25 410000 [34mINFO [0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-02-28 23:06:25 410002 [34mINFO [0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms

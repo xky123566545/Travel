@@ -36,12 +36,12 @@ public class UserController {
     @ApiImplicitParams({
             @ApiImplicitParam(paramType = "query",name = "userName",value = "用户名",required = true,dataType = "String"),
             @ApiImplicitParam(paramType = "query",name = "userPassword",value = "用户密码",required = true,dataType = "String"),
-            @ApiImplicitParam(paramType = "query",name = "userRole",value = "用户角色",example = "0",required = true,dataType = "int"),
-            @ApiImplicitParam(paramType = "query",name = "userSex",value = "用户性别",example = "0",required = true,dataType = "int"),
+            @ApiImplicitParam(paramType = "query",name = "userRole",value = "用户角色 (1为管理员，2为商家，3为用户",example = "1",required = true,dataType = "int"),
+            @ApiImplicitParam(paramType = "query",name = "userSex",value = "用户性别 1男2女",example = "1",required = true,dataType = "int"),
             @ApiImplicitParam(paramType = "query",name = "userPhone",value = "用户手机",required = true,dataType = "String"),
             @ApiImplicitParam(paramType = "query",name = "userEmail",value = "用户邮箱",required = true,dataType = "String"),
             @ApiImplicitParam(paramType = "query",name = "userAge",value = "用户年龄",example = "20",required = true,dataType = "int"),
-            @ApiImplicitParam(paramType = "query",name = "belongTo",value = "用户属于公司还是酒店",example = "0",required = true,dataType = "int"),
+            @ApiImplicitParam(paramType = "query",name = "belongTo",value = "用户属于公司还是酒店 1：无 2：景点 3：酒店 若user_role为1或者3则默认为1，若角色为2，则景点负责人为2，酒店负责人为3",example = "1",required = true,dataType = "int"),
             @ApiImplicitParam(paramType = "query",name = "userPicture",value = "图片路径",required = true,dataType = "String"),
     }
     )

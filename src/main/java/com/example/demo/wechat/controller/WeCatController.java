@@ -3,6 +3,7 @@ package com.example.demo.wechat.controller;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.example.demo.util.AESUtil;
+import com.example.demo.util.AppResponse;
 import com.example.demo.wechat.entity.Constants;
 import com.example.demo.wechat.entity.WechatInfo;
 import com.example.demo.wechat.service.WechatService;
@@ -108,7 +109,7 @@ public class WeCatController {
 	 * @return
 	 * @throws Exception
 	 */
-	@RequestMapping(value = "/pcAuth")
+	@GetMapping(value = "/pcAuth")
 	@ResponseBody
 	public String pcCallback(String code, String state, HttpServletRequest request, HttpServletResponse response,
                              HttpSession session) throws Exception {
@@ -132,6 +133,9 @@ public class WeCatController {
 		return "登录成功";
 	}
 
+	public AppResponse reTurnDate(WechatInfo wechatInfo){
+		return AppResponse.success("查询成功",wechatInfo);
+	}
 	/**
 	 * 检测登录状态(获取用户信息) 每秒被调用一次，
 	 * 
@@ -141,7 +145,7 @@ public class WeCatController {
 	 * @return
 	 * @date 2019年6月19日 下午8:18:38
 	 */
-	@RequestMapping(value = "/getInfoJson")
+	@GetMapping(value = "/getInfoJson")
 	@ResponseBody
 	public String getInfoJson(HttpSession session) {
 		System.out.println("666");
