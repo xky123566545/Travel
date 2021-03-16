@@ -5,6 +5,7 @@ import com.example.demo.goodsclassify.mapper.ClassifyMapper;
 import com.example.demo.goodsclassify.service.ClassifyService;
 import com.example.demo.util.AppResponse;
 import com.example.demo.util.IDUtil;
+import com.example.demo.util.PagedData;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import org.springframework.stereotype.Service;
@@ -70,7 +71,7 @@ public class ClassifyServicelmpl implements ClassifyService {
         Page<ClassifyInfo> page = PageHelper.startPage(pageNo,pageSize).doSelectPage(() -> {
             classifyMapper.getClassify(params);
         });
-        return AppResponse.success("查询成功",page);
+        return AppResponse.success("查询成功", PagedData.getInstance(page));
     }
 
     /**

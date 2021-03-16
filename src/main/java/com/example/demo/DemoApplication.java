@@ -16,6 +16,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @MapperScan("com.example.demo.cart.mapper")
 @MapperScan("com.example.demo.order.mapper")
 @MapperScan("com.example.demo.wechat.mapper")
+@MapperScan("com.example.demo.goodseva.mapper")
+@MapperScan("com.example.demo.area.mapper")
 @EnableSwagger2
 public class DemoApplication {
 

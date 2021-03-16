@@ -5,6 +5,7 @@ import com.example.demo.cart.mapper.CartMapper;
 import com.example.demo.cart.service.CartService;
 import com.example.demo.util.AppResponse;
 import com.example.demo.util.IDUtil;
+import com.example.demo.util.PagedData;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import org.springframework.stereotype.Service;
@@ -72,7 +73,7 @@ public class CartServicelmpl implements CartService {
         Page<CartInfo> page = PageHelper.startPage(pageNo,pageSize).doSelectPage(() ->{
             cartMapper.listCart(param);
         });
-        return AppResponse.success("查询成功",page);
+        return AppResponse.success("查询成功", PagedData.getInstance(page));
     }
 
     /**

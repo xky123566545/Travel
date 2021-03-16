@@ -226,5 +226,24 @@
     version = version + 1
     where hotel_id = #{hotelId}
     </update>
+<!--    新增酒店房型-->
+    <insert id="saveHotelDetails" parameterType="com.example.demo.hotel.entity.HotelDetailInfo">
+        insert into hotel_detail
+        values
+        (
+            #{hotelTypeId},
+            #{hotelId},
+            #{hotelTypeName},
+            #{hotelTypePrice},
+            #{hotelTypeStock},
+            #{imgId},
+            0,
+            #{createUser},
+            now(),
+            #{updateUser},
+            now(),
+            0
+        )
+    </insert>
 </mapper>
 

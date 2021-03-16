@@ -7,6 +7,7 @@ import com.example.demo.order.mapper.OrderMapper;
 import com.example.demo.order.service.OrderService;
 import com.example.demo.util.AppResponse;
 import com.example.demo.util.IDUtil;
+import com.example.demo.util.PagedData;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import org.springframework.stereotype.Service;
@@ -116,7 +117,7 @@ public class OrderServicelmpl implements OrderService {
         Page<OrderInfo> page = PageHelper.startPage(pageNo,pageSize).doSelectPage(() ->{
             orderMapper.listOrder();
         });
-        return AppResponse.success("查询成功",page);
+        return AppResponse.success("查询成功", PagedData.getInstance(page));
     }
 
     /**

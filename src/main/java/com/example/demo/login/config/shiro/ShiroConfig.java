@@ -72,13 +72,13 @@ public class ShiroConfig {
         filterRuleMap.put("/login/logout", "jwtFilter");
 
         //filterRuleMap.put("/api1/**", "jwtFilter"); 必要
-       // filterRuleMap.put("/swagger-ui.html", "jwtFilter");
-        //filterRuleMap.put("/swagger/**", "jwtFilter");
-        //filterRuleMap.put("/swagger-resources/**", "jwtFilter");
-       // filterRuleMap.put("/v2/**", "jwtFilter");
-       // filterRuleMap.put("/webjars/**", "jwtFilter");
-       // filterRuleMap.put("/configuration/**", "jwtFilter");
-       // filterRuleMap.put("/doc.html", "jwtFilter");
+//        filterRuleMap.put("/swagger-ui.html", "jwtFilter");
+//        filterRuleMap.put("/swagger/**", "jwtFilter");
+//        filterRuleMap.put("/swagger-resources/**", "jwtFilter");
+//        filterRuleMap.put("/v2/**", "jwtFilter");
+//        filterRuleMap.put("/webjars/**", "jwtFilter");
+//        filterRuleMap.put("/configuration/**", "jwtFilter");
+//        filterRuleMap.put("/doc.html", "jwtFilter");
         // 所有请求通过我们自己的JWTFilter
         //filterRuleMap.put("/**", "jwtFilter");
         factoryBean.setFilterChainDefinitionMap(filterRuleMap);

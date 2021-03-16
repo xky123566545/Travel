@@ -54,4 +54,8 @@ public interface HotelMapper {
      * 删除酒店房型
      */
     int deleteHotelType(String hotelId,String updateUser);
+    /**
+     * 新增酒店房型
+     */
+    int saveHotelDetails(HotelDetailInfo hotelDetailInfo);
 }

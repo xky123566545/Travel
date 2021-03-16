@@ -282,6 +282,9 @@
     <logger name="com.example.demo.user.mapper" level="DEBUG"/>
     <logger name="com.example.demo.cart.mapper" level="DEBUG"/>
     <logger name="com.example.demo.order.mapper" level="DEBUG"/>
+    <logger name="com.example.demo.goodseva.mapper" level="DEBUG"/>
+    <logger name="com.example.demo.area.mapper" level="DEBUG"/>
+    <logger name="com.example.demo.wechat.mapper" level="DEBUG"/>
     <!-- root级别   INFO -->
 
 </configuration>

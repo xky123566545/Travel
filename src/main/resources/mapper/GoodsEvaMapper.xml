@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.goodseva.mapper.GoodsEvaMapper">
+<!--    新增商品评价-->
+<insert id="saveGoodsEva" parameterType="com.example.demo.goodseva.entity.GoodsEvaInfo">
+    insert into goods_eva
+    values
+    (
+        #{orderId},
+        #{goodsId},
+        #{levelDouble},
+        #{content},
+        #{userName},
+        0,
+        #{createUser},
+        now(),
+        #{createUser},
+        now(),
+        0
+    )
+</insert>
+<!--   修改景点订单评分 -->
+    <update id="updateScenicGoodsEva" >
+        update scenic_info
+        set
+            scenic_star = (scenic_star + #{level}) / 2
+        where scenic_id = #{goodsId}
+    </update>
+    <!--   修改酒店订单评分 -->
+    <update id="updateHotelGoodsEva" >
+        update hotel_info
+        set
+            hotel_star = (hotel_star + #{level}) / 2
+        where hotel_id = #{goodsId}
+    </update>
+    <!--查询酒店编号-->
+    <select id="getHotelId" parameterType="java.lang.String" resultType="java.lang.String">
+        select hotel_id
+        from hotel_detail
+        where hotel_type_id = #{goodsId}
+    </select>
+<!--    查询订单评价详情-->
+    <select id="getGoodsEva" resultType="com.example.demo.goodseva.entity.GoodsEvaInfo">
+        select *
+        from goods_eva
+        where is_delete = 0
+        and goods_id = #{goodsId}
+    </select>
+</mapper>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.area.mapper.AreaMapper">
+<!--   查询省市区下拉框 -->
+    <select id="getArea" resultType="com.example.demo.area.entity.AreaEntity">
+        select *
+        from area
+        where Pid = #{pid}
+    </select>
+</mapper>

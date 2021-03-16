@@ -5,6 +5,7 @@ import com.example.demo.scenic.mapper.ScenicMapper;
 import com.example.demo.scenic.service.ScenicService;
 import com.example.demo.util.AppResponse;
 import com.example.demo.util.IDUtil;
+import com.example.demo.util.PagedData;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import org.springframework.stereotype.Service;
@@ -68,7 +69,7 @@ public class ScenicServicelmpl implements ScenicService {
         Page<ScenicInfo> page = PageHelper.startPage(pageNo,pageSize).doSelectPage(() -> {
             scenicMapper.getScenic(param);
         });
-        return AppResponse.success("查询成功",page);
+        return AppResponse.success("查询成功", PagedData.getInstance(page));
     }
 
     /**

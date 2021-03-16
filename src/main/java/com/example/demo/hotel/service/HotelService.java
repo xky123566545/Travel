@@ -39,4 +39,8 @@ public interface HotelService {
      * 删除酒店信息
      */
     AppResponse deleteHotel(String hotelId,String updateUser);
+    /**
+     * 新增酒店房型
+     */
+    AppResponse saveHotelDetails(HotelDetailInfo hotelDetailInfo);
 }

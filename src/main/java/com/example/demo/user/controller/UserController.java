@@ -43,6 +43,7 @@ public class UserController {
             @ApiImplicitParam(paramType = "query",name = "userAge",value = "用户年龄",example = "20",required = true,dataType = "int"),
             @ApiImplicitParam(paramType = "query",name = "belongTo",value = "用户属于公司还是酒店 1：无 2：景点 3：酒店 若user_role为1或者3则默认为1，若角色为2，则景点负责人为2，酒店负责人为3",example = "1",required = true,dataType = "int"),
             @ApiImplicitParam(paramType = "query",name = "userPicture",value = "图片路径",required = true,dataType = "String"),
+            @ApiImplicitParam(paramType = "query",name = "createUser,lko9",value = "创建人",required = true,dataType = "String")
     }
     )
     public AppResponse saveUser(UserInfo userInfo){

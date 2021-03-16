@@ -6,6 +6,7 @@ import com.example.demo.hotel.mapper.HotelMapper;
 import com.example.demo.hotel.service.HotelService;
 import com.example.demo.util.AppResponse;
 import com.example.demo.util.IDUtil;
+import com.example.demo.util.PagedData;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import org.springframework.stereotype.Service;
@@ -42,6 +43,9 @@ public class HotelServicelmpl implements HotelService {
         List<String> imgId  = Arrays.asList(hotelInfo.getImgId().split(","));
         //生成酒店类型明细编号
         List<String> hotelTypeId = new ArrayList<>();
+        //生成酒店地址
+        String address = hotelInfo.getProvinceId() + hotelInfo.getCityId() + hotelInfo.getAreaId() + hotelInfo.getHotelAddress();
+        hotelInfo.setHotelAddress(address);
         for (int i = 0;i < hotelTypeName.size();i++){
             Thread.sleep(1);
             String id = "HTD" + IDUtil.getRandomId();
@@ -70,10 +74,10 @@ public class HotelServicelmpl implements HotelService {
         if (hotelMapper.saveHotel(hotelInfo) == 0){
             return AppResponse.bizError("添加酒店信息失败");
         }
-        //将酒店房间类型添加到酒店明细表
-        if (hotelMapper.saveHotelDetail(hotelDetailInfos) == 0){
-            return AppResponse.bizError("添加酒店信息明细失败");
-        }
+//        //将酒店房间类型添加到酒店明细表
+//        if (hotelMapper.saveHotelDetail(hotelDetailInfos) == 0){
+//            return AppResponse.bizError("添加酒店信息明细失败");
+//        }
         return AppResponse.success("添加成功");
     }
 
@@ -105,7 +109,7 @@ public class HotelServicelmpl implements HotelService {
         Page<HotelInfo> page = PageHelper.startPage(pageNo,pageSize).doSelectPage(() ->{
             hotelMapper.listHotel(param);
         });
-        return AppResponse.success("查询成功",page);
+        return AppResponse.success("查询成功", PagedData.getInstance(page));
     }
 
     /**
@@ -165,5 +169,20 @@ public class HotelServicelmpl implements HotelService {
             return AppResponse.bizError("删除酒店房型失败，请重试");
         }
         return AppResponse.success("删除成功");
+    }
+
+    /**
+     * 新增酒店明细详情
+     * @param hotelDetailInfo
+     * @return
+     */
+    @Override
+    public AppResponse saveHotelDetails(HotelDetailInfo hotelDetailInfo) {
+        //生成酒店房型编号
+        hotelDetailInfo.setHotelTypeId("HTD" + IDUtil.getRandomId());
+        if (hotelMapper.saveHotelDetails(hotelDetailInfo) == 0){
+            return AppResponse.bizError("新增酒店房型失败");
+        }
+        return AppResponse.success("新增成功");
     }
 }

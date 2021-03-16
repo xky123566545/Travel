@@ -45,6 +45,20 @@ public class HotelController {
             throw e;
         }
     }
+    /**
+     * 新增酒店房型信息
+     */
+    @ApiOperation(value = "新增酒店房型信息")
+    @PostMapping("/saveHotelDetails")
+    public AppResponse saveHotelDetails(@RequestBody HotelDetailInfo hotelDetailInfo){
+        try{
+            return hotelService.saveHotelDetails(hotelDetailInfo);
+        }catch (Exception e){
+            logger.error("新增失败");
+            System.out.println(e.toString());
+            throw e;
+        }
+    }
 
     /**
      *  查询酒店信息详情
