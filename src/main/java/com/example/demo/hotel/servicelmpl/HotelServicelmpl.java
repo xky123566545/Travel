@@ -44,8 +44,9 @@ public class HotelServicelmpl implements HotelService {
         //生成酒店类型明细编号
         List<String> hotelTypeId = new ArrayList<>();
         //生成酒店地址
-        String address = hotelInfo.getProvinceId() + hotelInfo.getCityId() + hotelInfo.getAreaId() + hotelInfo.getHotelAddress();
-        hotelInfo.setHotelAddress(address);
+//        String address = hotelInfo.getProvinceId() + hotelInfo.getCityId() + hotelInfo.getAreaId() + hotelInfo.getHotelAddress();
+//        hotelInfo.setHotelAddress(address);
+        hotelInfo.setHotelStar(5);
         for (int i = 0;i < hotelTypeName.size();i++){
             Thread.sleep(1);
             String id = "HTD" + IDUtil.getRandomId();
@@ -74,10 +75,10 @@ public class HotelServicelmpl implements HotelService {
         if (hotelMapper.saveHotel(hotelInfo) == 0){
             return AppResponse.bizError("添加酒店信息失败");
         }
-//        //将酒店房间类型添加到酒店明细表
-//        if (hotelMapper.saveHotelDetail(hotelDetailInfos) == 0){
-//            return AppResponse.bizError("添加酒店信息明细失败");
-//        }
+        //将酒店房间类型添加到酒店明细表
+        if (hotelMapper.saveHotelDetail(hotelDetailInfos) == 0){
+            return AppResponse.bizError("添加酒店信息明细失败");
+        }
         return AppResponse.success("添加成功");
     }
 

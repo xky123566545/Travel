@@ -103,7 +103,8 @@
         <result property="hotelAddress" column="hotel_address" jdbcType="VARCHAR"></result>
         <result property="classifyId" column="classify_id" jdbcType="VARCHAR"></result>
         <result property="version" column="version" jdbcType="VARCHAR"></result>
-        <collection property="hotelDetailInfos" ofType="com.example.demo.hotel.entity.HotelDetailInfo">
+        <collection property="hotelDetailInfos" ofType="com.example.demo.hotel.entity.HotelDetailInfo"
+                    javaType="list" select="getHotelDetail" column="{hotelId} = hotel_id" >
             <result property="hotelId" column="hotel_id" jdbcType="VARCHAR"></result>
             <result property="hotelTypeId" column="hotel_type_id" jdbcType="VARCHAR"></result>
             <result property="hotelTypeName" column="hotel_type_name" jdbcType="VARCHAR"></result>
@@ -126,38 +127,49 @@
     <select id="listHotel" resultMap="hotelMap">
         SELECT *
         from hotel_info h1
-        inner JOIN
-        (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2
-        on h1.hotel_id = h2.hotel_id
         <where>
-        0 = 0
+        is_delete = 0
         <if test="hotelInfo != null">
             <if test="hotelInfo.hotelName != null and hotelInfo.hotelName != ''">
-                and hotel_name like concat('%',{hotelInfo.hotelName},'%')
+                and h1.hotel_name like concat('%',#{hotelInfo.hotelName},'%')
             </if>
             <if test="hotelInfo.hotelComment != null and hotelInfo.hotelComment != ''">
-                and hotel_comment like concat('%',{hotelInfo.hotelComment},'%')
+                and h1.hotel_comment like concat('%',#{hotelInfo.hotelComment},'%')
             </if>
             <if test="hotelInfo.hotelCharacteristic != null and hotelInfo.hotelCharacteristic != ''">
-                and hotel_characteristic like concat('%',{hotelInfo.hotelCharacteristic},'%')
+                and h1.hotel_characteristic like concat('%',#{hotelInfo.hotelCharacteristic},'%')
             </if>
             <if test="hotelInfo.hotelStar != null and hotelInfo.hotelStar != ''">
-                and hotel_star like concat({hotelInfo.hotelStar},'%')
+                and h1.hotel_star like concat('%',#{hotelInfo.hotelStar},'%')
             </if>
             <if test="hotelInfo.provinceId != null and hotelInfo.provinceId != ''">
-                and province_id = {hotelInfo.provinceId}
+                and h1.province_id = #{hotelInfo.provinceId}
             </if>
             <if test="hotelInfo.cityId != null and hotelInfo.cityId != ''">
-                and city_id = {hotelInfo.cityId}
+                and h1.city_id = #{hotelInfo.cityId}
             </if>
             <if test="hotelInfo.hotelAddress != null and hotelInfo.hotelAddress != ''">
-                and hotel_address like concat('%',{hotelInfo.hotelAddress},'%')
+                and h1.hotel_address like concat('%',#{hotelInfo.hotelAddress},'%')
             </if>
             <if test="hotelInfo.classifyId != null and hotelInfo.classifyId != ''">
-                and classify_id = {hotelInfo.classifyId}
+                and h1.classify_id = #{hotelInfo.classifyId}
             </if>
         </if>
         </where>
+    </select>
+<!--    子表-->
+    <select id="getHotelDetail" resultType="map" parameterType="map">
+        select
+        hotel_type_id  'hotelTypeId',
+        hotel_type_name 'hotelTypeName',
+        hotel_id        'hotelId',
+        hotel_type_price 'hotelTypePrice',
+        hotel_type_stock  'hotelTypeStock',
+        img_id            'imgId',
+        version
+        from hotel_detail
+        where is_delete = 0
+        and hotel_id = #{hotelId}
     </select>
 <!--    修改酒店信息-->
     <update id="updateHotel" parameterType="com.example.demo.hotel.entity.HotelInfo">
