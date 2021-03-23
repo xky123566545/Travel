@@ -85,13 +85,14 @@
         <result property="createUser" column="create_user" jdbcType="VARCHAR"></result>
         <result property="createTime" column="create_time" jdbcType="DATE"></result>
         <result property="version" column="version" jdbcType="VARCHAR"></result>
-        <collection property="orderDetails" ofType="com.example.demo.order.entity.OrderDetail">
+        <collection property="orderDetails" ofType="com.example.demo.order.entity.OrderDetail"
+        javaType="list" select="getOrderDetail" column="{orderId} = order_id">
             <result property="orderDetailId" column="order_detail_id" jdbcType="VARCHAR"></result>
             <result property="orderId" column="order_id" jdbcType="VARCHAR"></result>
-            <result property="goodsId" column="goods_id" jdbcType="VARCHAR"></result>
-            <result property="goodsName" column="goods_name" jdbcType="VARCHAR"></result>
-            <result property="goodsPrice" column="goods_price" jdbcType="VARCHAR"></result>
-            <result property="goodsCnt" column="goods_cnt" jdbcType="VARCHAR"></result>
+            <result property="goodsId1" column="goods_id" jdbcType="VARCHAR"></result>
+            <result property="goodsName1" column="goods_name" jdbcType="VARCHAR"></result>
+            <result property="goodsPrice1" column="goods_price" jdbcType="VARCHAR"></result>
+            <result property="goodsCnt1" column="goods_cnt" jdbcType="VARCHAR"></result>
             <result property="goodsAllPrice" column="goods_all_price" jdbcType="VARCHAR"></result>
         </collection>
     </resultMap>
@@ -99,10 +100,22 @@
     <select id="listOrder" resultMap="listOrderDetail">
         select *
         from order_info o1
-        inner join order_detail o2
-        on o1.order_id = o2.order_id
         where o1.is_delete = 0
-        and o2.is_delete = 0
+
+    </select>
+<!--    子表-->
+    <select id="getOrderDetail" parameterType="map" resultType="map">
+        select
+            order_detail_id 'orderDetailId',
+            goods_id        'goodsId1',
+            goods_name      'goodsName1',
+            goods_price     'goodsPrice1',
+            goods_cnt       'goodsCnt1',
+            goods_all_price 'goodsAllPrice'
+
+        from order_detail
+        where is_delete = 0
+        and order_id = #{orderId}
     </select>
 
 <!--    修改订单状态-->

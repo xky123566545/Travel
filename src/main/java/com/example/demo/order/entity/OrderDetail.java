@@ -30,19 +30,19 @@ public class OrderDetail {
     /**
      * 商品编号
      */
-    private String goodsId;
+    private String goodsId1;
     /**
      * 商品名称
      */
-    private String goodsName;
+    private String goodsName1;
     /**
      * 商品单价
      */
-    private String goodsPrice;
+    private String goodsPrice1;
     /**
      * 商品数量
      */
-    private String goodsCnt;
+    private String goodsCnt1;
     /**
      * 订单总价钱
      */

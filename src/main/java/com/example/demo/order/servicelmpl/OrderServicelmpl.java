@@ -62,11 +62,11 @@ public class OrderServicelmpl implements OrderService {
             OrderDetail orderDetail = new OrderDetail();
             orderDetail.setOrderDetailId(goodsDetailId.get(i));
             orderDetail.setOrderId(orderInfo.getOrderId());
-            orderDetail.setGoodsId(goodsId.get(i));
-            orderDetail.setGoodsCnt(goodsCnt.get(i));
-            orderDetail.setGoodsPrice(goodsPrice.get(i));
+            orderDetail.setGoodsId1(goodsId.get(i));
+            orderDetail.setGoodsCnt1(goodsCnt.get(i));
+            orderDetail.setGoodsPrice1(goodsPrice.get(i));
             orderDetail.setCreateUser(orderInfo.getCreateUser());
-            orderDetail.setGoodsName(goodsName.get(i));
+            orderDetail.setGoodsName1(goodsName.get(i));
 
             orderDetails.add(orderDetail);
         }

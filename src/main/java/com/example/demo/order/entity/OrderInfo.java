@@ -91,6 +91,6 @@ public class OrderInfo {
      * 商品明细列表
      */
     @Transient
-    List<OrderDetail> orderDetails;
+    private List<OrderDetail> orderDetails;
 
 }

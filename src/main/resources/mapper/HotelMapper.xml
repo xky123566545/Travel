@@ -152,7 +152,7 @@
                 and h1.hotel_address like concat('%',#{hotelInfo.hotelAddress},'%')
             </if>
             <if test="hotelInfo.classifyId != null and hotelInfo.classifyId != ''">
-                and h1.classify_id = #{hotelInfo.classifyId}
+                and h1.classify_id = #  {hotelInfo.classifyId}
             </if>
         </if>
         </where>
