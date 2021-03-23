@@ -46,7 +46,8 @@ import java.util.Map;
  * @date 2019年6月18日 下午8:04:15
  */
 @Controller
-public class WeCatController {
+public class
+WeCatController {
 
 	@Resource
 	private WechatService wechatService;
