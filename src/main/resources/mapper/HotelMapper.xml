@@ -118,8 +118,6 @@
     <select id="getHotel" resultMap="hotelMap">
         SELECT *
         from hotel_info h1
-        inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2
-        on h1.hotel_id = h2.hotel_id
         where h1.hotel_id = #{hotelId}
         and h1.is_delete = 0
     </select>

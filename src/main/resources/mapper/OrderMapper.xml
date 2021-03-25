@@ -101,7 +101,7 @@
         select *
         from order_info o1
         where o1.is_delete = 0
-
+        order by create_time
     </select>
 <!--    子表-->
     <select id="getOrderDetail" parameterType="map" resultType="map">
