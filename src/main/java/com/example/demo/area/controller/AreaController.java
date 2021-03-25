@@ -5,6 +5,10 @@ import com.example.demo.area.service.AreaService;
 import com.example.demo.util.AppResponse;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import jxl.Cell;
+import jxl.Sheet;
+import jxl.Workbook;
+import jxl.read.biff.BiffException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -54,7 +58,7 @@ public class AreaController {
         Reader reader = null;
         BufferedReader bf = null;
         try{
-            String city = URLEncoder.encode(City,"utf-8");
+
             Map<String,String> param= new HashMap<>();
             param.put("北京市","beijing");
             param.put("天津市","tianjing");
@@ -124,7 +128,7 @@ public class AreaController {
             param.put("湘潭市","xiangtan");
             param.put("衡阳市","hengyang");
             param.put("广州市","guangzhou");
-            param.put("韶关市","shaoguang");
+            param.put("韶关市","shaoguan");
             param.put("深圳市","shenzhen");
             param.put("珠海市","zhuhai");
             param.put("汕头市","shantou");
@@ -144,7 +148,42 @@ public class AreaController {
             param.put("潮州市","chaozhou");
             param.put("揭阳市","jieyang");
             param.put("云浮市","yunfu");
-
+            param.put("南宁市","nangning");
+            param.put("柳州市","liuzhoushi");
+            param.put("桂林市","guilin");
+            param.put("海口市","haikou");
+            param.put("三亚市","sanya");
+            param.put("三沙市","sansha");
+            param.put("重庆市","chongqing");
+            param.put("成都市","chengdu");
+            param.put("自贡市","zigong");
+            param.put("攀枝花市","panzhihua");
+            param.put("贵阳市","guiyang");
+            param.put("六盘水市","liupanshui");
+            param.put("遵义市","zunyi");
+            param.put("昆明市","kunming");
+            param.put("曲靖市","qujing");
+            param.put("玉溪市","yuxi");
+            param.put("保山市","baoshan");
+            param.put("西安市","xian");
+            param.put("铜川市","tongchuan");
+            param.put("宝鸡市","baoji");
+            param.put("兰州市","lanzhou");
+            param.put("嘉峪关市","jiayuguan");
+            param.put("金昌市","jinchang");
+            param.put("西宁市","xining");
+            param.put("海东市","haidong");
+            param.put("银川市","yinchuang");
+            param.put("乌鲁木齐市","wulumuqi");
+            String nCity = null;
+            for (Map.Entry<String,String> str : param.entrySet()){
+                if (City.equals(str.getKey())){
+                    nCity = str.getValue();
+                    break;
+                }
+                
+            }
+            String city = URLEncoder.encode(nCity,"utf-8");
             String url = "https://www.qixiangwang.cn/" + city + ".htm";
             String[] args = new String[] {"python","C:\\Users\\Administrator\\Desktop\\毕业设计项目\\旅游网\\python\\Weather.py",url};
             Process process = Runtime.getRuntime().exec(args);
@@ -172,7 +211,34 @@ public class AreaController {
         }
     }
 
-
+    @ApiOperation("读取天气信息")
+    @PostMapping("/getWeatherInfo")
+    public AppResponse getWeatherInfo() throws IOException, BiffException {
+        try{
+            //读取excel信息
+            Workbook workbook =Workbook.getWorkbook(new File("D:/tmp/excel/weather.xls"));
+            Sheet sheet = workbook.getSheet(0);
+            List<WeatherInfo> list = new ArrayList<>();
+            for (int i = 1;i < sheet.getRows();i++){
+                WeatherInfo weatherInfo = new WeatherInfo();
+                weatherInfo.setDate(sheet.getCell(0,i).getContents());
+                weatherInfo.setCity(sheet.getCell(1,i).getContents());
+                weatherInfo.setStatus(sheet.getCell(2,i).getContents());
+                weatherInfo.setWendu(sheet.getCell(3,i).getContents());
+                weatherInfo.setShidu(sheet.getCell(4,i).getContents());
+                weatherInfo.setFengxiangS(sheet.getCell(5,i).getContents());
+                weatherInfo.setFengxiangX(sheet.getCell(6,i).getContents());
+                list.add(weatherInfo);
+                System.out.println(weatherInfo);
+            }
+            workbook.close();
+            return AppResponse.success("查询成功",list);
+        }catch (Exception e){
+            logger.error("查询失败");
+            System.out.println(e.toString());
+            throw e;
+        }
+    }
 
 
 }

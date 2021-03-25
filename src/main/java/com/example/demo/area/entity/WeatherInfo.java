@@ -26,11 +26,15 @@ public class WeatherInfo {
      */
     private String status;
     /**
-     * 风向
+     * 上午风向
      */
-    private String fengxiang;
+    private String fengxiangS;
     /**
      * 湿度
      */
     private String shidu;
+    /**
+     * 下午风向
+     */
+    private String fengxiangX;
 }

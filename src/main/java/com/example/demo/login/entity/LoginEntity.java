@@ -10,5 +10,8 @@ public class LoginEntity {
     private String username;
     //密码
     private String password;
+    //图片路径
+    private  String imgPath;
 }
+
 
