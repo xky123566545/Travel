@@ -1,0 +1,4 @@
+2021-03-12 14:35:42 792604 [1;31mERROR[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.hotel.controller.HotelController - 查询失败
+2021-03-12 15:22:41 3611277 [1;31mERROR[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.controller.UserController - 删除失败，请重试

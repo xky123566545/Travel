@@ -1,0 +1,8 @@
+2021-03-24 08:34:38 56448 [1;31mERROR[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.area.controller.AreaController - 查询失败
+2021-03-24 08:34:52 70573 [1;31mERROR[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.area.controller.AreaController - 查询失败
+2021-03-24 08:35:22 100772 [1;31mERROR[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.area.controller.AreaController - 查询失败
+2021-03-24 08:37:19 217571 [1;31mERROR[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.area.controller.AreaController - 查询失败

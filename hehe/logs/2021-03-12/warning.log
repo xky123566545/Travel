@@ -1,0 +1,7 @@
+2021-03-12 07:56:23.724 [travel housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - travel - Thread starvation or clock leap detected (housekeeper delta=11h10m18s175ms819µs900ns).
+2021-03-12 10:21:56.500 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo.IPO.mapper]' package. Please check your configuration.
+2021-03-12 10:22:00.479 [main] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-12 10:22:02.753 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 14:22:33.462 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo.IPO.mapper]' package. Please check your configuration.
+2021-03-12 14:22:36.676 [main] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-12 14:22:38.843 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning

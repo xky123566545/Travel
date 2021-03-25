@@ -1,0 +1,582 @@
+2021-03-25 09:47:20 1778 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-5TN1T53 with PID 25748 (C:\Users\Administrator\Desktop\毕业设计项目\旅游网\demo\target\classes started by Administrator in C:\Users\Administrator\Desktop\毕业设计项目\旅游网\demo)
+2021-03-25 09:47:20 1782 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.example.demo.DemoApplication - The following profiles are active: dev
+2021-03-25 09:47:23 4493 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-25 09:47:23 4493 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-25 09:47:23 4659 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 147 ms. Found 0 JPA repository interfaces.
+2021-03-25 09:47:23 4691 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-25 09:47:23 4693 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-25 09:47:24 4994 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 273 ms. Found 0 Redis repository interfaces.
+2021-03-25 09:47:24 5405 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo.login.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$762008ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:47:24 5640 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:47:24 5649 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$37fd092d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:47:24 5652 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:47:24 5667 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:47:24 5700 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:47:25 6126 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:47:25 6133 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:47:25 6134 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loginMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:47:25 6136 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loginMapper' of type [com.sun.proxy.$Proxy73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:47:25 6144 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.example.demo.login.redis.RedisConfig$$EnhancerBySpringCGLIB$$9d165e4d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:47:25 6169 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:47:25 6171 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:47:25 6365 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:47:25 6580 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:47:25 6714 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:47:25 6715 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisClient' of type [com.example.demo.login.redis.RedisClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:47:25 6716 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealm' of type [com.example.demo.login.config.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:47:27 7895 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:47:27 7913 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jwtFilter' of type [com.example.demo.login.filter.JwtFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:47:27 7937 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:47:27 8530 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2021-03-25 09:47:27 8544 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2021-03-25 09:47:27 8545 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-25 09:47:27 8545 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-25 09:47:28 8873 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-03-25 09:47:28 8874 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6759 ms
+2021-03-25 09:47:28 9192 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.zaxxer.hikari.HikariDataSource - travel - Starting...
+2021-03-25 09:47:30 11183 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.zaxxer.hikari.HikariDataSource - travel - Start completed.
+2021-03-25 09:47:30 11367 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-25 09:47:30 11491 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-03-25 09:47:31 11820 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-25 09:47:31 12131 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-03-25 09:47:32 13469 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-25 09:47:32 13495 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-25 09:47:33 14454 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-25 09:47:34 14909 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-25 09:47:34 15576 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2021-03-25 09:47:34 15619 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2021-03-25 09:47:34 15620 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-03-25 09:47:34 15658 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-03-25 09:47:34 15721 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-03-25 09:47:35 16069 [34mINFO [0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-25 09:47:35 16069 [34mINFO [0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-03-25 09:47:35 16071 [34mINFO [0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-03-25 09:47:35 16154 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingGET_1
+2021-03-25 09:47:35 16189 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.example.demo.DemoApplication - Started DemoApplication in 15.542 seconds (JVM running for 18.901)
+2021-03-25 09:48:46 1581 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-5TN1T53 with PID 1588 (C:\Users\Administrator\Desktop\毕业设计项目\旅游网\demo\target\classes started by Administrator in C:\Users\Administrator\Desktop\毕业设计项目\旅游网\demo)
+2021-03-25 09:48:46 1585 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.example.demo.DemoApplication - The following profiles are active: dev
+2021-03-25 09:48:48 3215 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-25 09:48:48 3215 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-25 09:48:48 3339 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 112 ms. Found 0 JPA repository interfaces.
+2021-03-25 09:48:48 3358 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-25 09:48:48 3360 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-25 09:48:48 3500 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 125 ms. Found 0 Redis repository interfaces.
+2021-03-25 09:48:48 3813 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo.login.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$762008ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:48:48 3992 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:48:48 4000 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$37fd092d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:48:48 4003 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:48:48 4020 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:48:48 4052 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:48:49 4323 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:48:49 4329 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:48:49 4330 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loginMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:48:49 4332 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loginMapper' of type [com.sun.proxy.$Proxy73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:48:49 4337 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.example.demo.login.redis.RedisConfig$$EnhancerBySpringCGLIB$$9d165e4d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:48:49 4347 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:48:49 4349 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:48:49 4452 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:48:49 4656 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:48:49 4756 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:48:49 4757 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisClient' of type [com.example.demo.login.redis.RedisClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:48:49 4758 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealm' of type [com.example.demo.login.config.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:48:50 5737 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:48:50 5751 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jwtFilter' of type [com.example.demo.login.filter.JwtFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:48:50 5771 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 09:48:51 6219 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2021-03-25 09:48:51 6230 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2021-03-25 09:48:51 6231 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-25 09:48:51 6232 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-25 09:48:51 6489 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-03-25 09:48:51 6489 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4803 ms
+2021-03-25 09:48:51 6721 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.zaxxer.hikari.HikariDataSource - travel - Starting...
+2021-03-25 09:48:51 7017 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.zaxxer.hikari.HikariDataSource - travel - Start completed.
+2021-03-25 09:48:52 7171 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-25 09:48:52 7258 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-03-25 09:48:52 7457 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-25 09:48:52 7649 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-03-25 09:48:53 8591 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-25 09:48:53 8607 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-25 09:48:54 9304 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-25 09:48:54 9677 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-25 09:48:55 10274 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2021-03-25 09:48:55 10296 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2021-03-25 09:48:55 10298 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-03-25 09:48:55 10320 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-03-25 09:48:55 10359 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-03-25 09:48:55 10722 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingGET_1
+2021-03-25 09:48:55 10752 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.example.demo.DemoApplication - Started DemoApplication in 10.153 seconds (JVM running for 12.61)
+2021-03-25 09:49:53 68441 [34mINFO [0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-25 09:49:53 68441 [34mINFO [0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-03-25 09:49:53 68443 [34mINFO [0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-03-25 15:10:06 1362 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-5TN1T53 with PID 23744 (C:\Users\Administrator\Desktop\毕业设计项目\旅游网\demo\target\classes started by Administrator in C:\Users\Administrator\Desktop\毕业设计项目\旅游网\demo)
+2021-03-25 15:10:06 1365 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.example.demo.DemoApplication - The following profiles are active: dev
+2021-03-25 15:10:08 3018 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-25 15:10:08 3019 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-25 15:10:08 3176 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 142 ms. Found 0 JPA repository interfaces.
+2021-03-25 15:10:08 3201 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-25 15:10:08 3202 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-25 15:10:08 3317 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 101 ms. Found 0 Redis repository interfaces.
+2021-03-25 15:10:08 3625 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo.login.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$762008ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:10:08 3824 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:10:08 3836 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$37fd092d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:10:08 3839 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:10:08 3858 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:10:09 3899 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:10:09 4234 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:10:09 4240 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:10:09 4241 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loginMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:10:09 4243 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loginMapper' of type [com.sun.proxy.$Proxy73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:10:09 4249 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.example.demo.login.redis.RedisConfig$$EnhancerBySpringCGLIB$$9d165e4d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:10:09 4261 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:10:09 4263 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:10:09 4422 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:10:09 4650 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:10:09 4764 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:10:09 4765 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisClient' of type [com.example.demo.login.redis.RedisClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:10:09 4766 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealm' of type [com.example.demo.login.config.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:10:10 5804 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:10:10 5817 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jwtFilter' of type [com.example.demo.login.filter.JwtFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:10:10 5837 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:10:11 6307 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2021-03-25 15:10:11 6320 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2021-03-25 15:10:11 6321 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-25 15:10:11 6321 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-25 15:10:11 6620 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-03-25 15:10:11 6621 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5173 ms
+2021-03-25 15:10:11 6842 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.zaxxer.hikari.HikariDataSource - travel - Starting...
+2021-03-25 15:10:12 7372 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.zaxxer.hikari.HikariDataSource - travel - Start completed.
+2021-03-25 15:10:12 7540 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-25 15:10:12 7654 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-03-25 15:10:13 7880 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-25 15:10:13 8099 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-03-25 15:10:14 9093 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-25 15:10:14 9110 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-25 15:10:15 9872 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-25 15:10:15 10262 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-25 15:10:16 10908 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2021-03-25 15:10:16 10938 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2021-03-25 15:10:16 10940 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-03-25 15:10:16 10965 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-03-25 15:10:16 11015 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-03-25 15:10:16 11399 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingGET_1
+2021-03-25 15:10:16 11430 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.example.demo.DemoApplication - Started DemoApplication in 10.878 seconds (JVM running for 13.696)
+2021-03-25 15:10:29 24363 [34mINFO [0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-25 15:10:29 24363 [34mINFO [0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-03-25 15:10:29 24365 [34mINFO [0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-03-25 15:36:31 1329 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-5TN1T53 with PID 21144 (C:\Users\Administrator\Desktop\毕业设计项目\旅游网\demo\target\classes started by Administrator in C:\Users\Administrator\Desktop\毕业设计项目\旅游网\demo)
+2021-03-25 15:36:31 1332 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.example.demo.DemoApplication - The following profiles are active: dev
+2021-03-25 15:36:33 3074 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-25 15:36:33 3075 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-25 15:36:33 3207 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 116 ms. Found 0 JPA repository interfaces.
+2021-03-25 15:36:33 3227 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-25 15:36:33 3229 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-25 15:36:33 3340 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 100 ms. Found 0 Redis repository interfaces.
+2021-03-25 15:36:34 3681 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo.login.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$93e6a9a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:36:34 3887 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:36:34 3895 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$55c3aa28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:36:34 3898 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:36:34 3910 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:36:34 3936 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:36:34 4198 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-25 15:38:04 1277 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-5TN1T53 with PID 9968 (C:\Users\Administrator\Desktop\毕业设计项目\旅游网\demo\target\classes started by Administrator in C:\Users\Administrator\Desktop\毕业设计项目\旅游网\demo)
+2021-03-25 15:38:04 1280 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.example.demo.DemoApplication - The following profiles are active: dev
+2021-03-25 15:38:05 2761 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-25 15:38:05 2762 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-25 15:38:05 2890 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 118 ms. Found 0 JPA repository interfaces.
+2021-03-25 15:38:05 2911 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-25 15:38:05 2913 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-25 15:38:05 3018 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95 ms. Found 0 Redis repository interfaces.
+2021-03-25 15:38:06 3327 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo.login.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$be9a20fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:38:06 3514 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:38:06 3523 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$80772180] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:38:06 3526 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:38:06 3542 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:38:06 3576 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:38:06 3838 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:38:06 3843 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:38:06 3844 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loginMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:38:06 3846 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loginMapper' of type [com.sun.proxy.$Proxy73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:38:06 3849 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.example.demo.login.redis.RedisConfig$$EnhancerBySpringCGLIB$$e59076a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:38:06 3862 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:38:06 3864 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:38:06 3977 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:38:06 4162 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:38:07 4257 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:38:07 4258 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisClient' of type [com.example.demo.login.redis.RedisClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:38:07 4259 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealm' of type [com.example.demo.login.config.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:38:08 5245 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:38:08 5259 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jwtFilter' of type [com.example.demo.login.filter.JwtFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:38:08 5282 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:38:08 5729 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2021-03-25 15:38:08 5744 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2021-03-25 15:38:08 5745 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-25 15:38:08 5745 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-25 15:38:08 6014 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-03-25 15:38:08 6015 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4652 ms
+2021-03-25 15:38:09 6222 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.zaxxer.hikari.HikariDataSource - travel - Starting...
+2021-03-25 15:38:09 6516 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.zaxxer.hikari.HikariDataSource - travel - Start completed.
+2021-03-25 15:38:09 6665 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-25 15:38:09 6761 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-03-25 15:38:09 7003 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-25 15:38:09 7174 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-03-25 15:38:10 8099 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-25 15:38:10 8114 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-25 15:38:11 8828 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-25 15:38:12 9270 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-25 15:38:12 9891 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2021-03-25 15:38:12 9916 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2021-03-25 15:38:12 9917 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-03-25 15:38:12 9941 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-03-25 15:38:12 9985 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-03-25 15:38:13 10353 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingGET_1
+2021-03-25 15:38:13 10382 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.example.demo.DemoApplication - Started DemoApplication in 9.84 seconds (JVM running for 12.215)
+2021-03-25 15:38:47 44713 [34mINFO [0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-25 15:38:47 44713 [34mINFO [0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-03-25 15:38:47 44718 [34mINFO [0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2021-03-25 15:55:31 1387 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-5TN1T53 with PID 23728 (C:\Users\Administrator\Desktop\毕业设计项目\旅游网\demo\target\classes started by Administrator in C:\Users\Administrator\Desktop\毕业设计项目\旅游网\demo)
+2021-03-25 15:55:31 1390 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.example.demo.DemoApplication - The following profiles are active: dev
+2021-03-25 15:55:33 3087 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-25 15:55:33 3087 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-25 15:55:33 3226 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 126 ms. Found 0 JPA repository interfaces.
+2021-03-25 15:55:33 3247 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-25 15:55:33 3249 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-25 15:55:33 3361 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 99 ms. Found 0 Redis repository interfaces.
+2021-03-25 15:55:33 3701 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo.login.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$762008ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:55:34 3894 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:55:34 3903 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$37fd092d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:55:34 3905 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:55:34 3921 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:55:34 3956 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:55:34 4278 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:55:34 4283 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:55:34 4284 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loginMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:55:34 4286 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loginMapper' of type [com.sun.proxy.$Proxy73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:55:34 4290 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.example.demo.login.redis.RedisConfig$$EnhancerBySpringCGLIB$$9d165e4d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:55:34 4299 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:55:34 4300 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:55:34 4405 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:55:34 4599 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:55:34 4696 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:55:34 4697 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisClient' of type [com.example.demo.login.redis.RedisClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:55:34 4698 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealm' of type [com.example.demo.login.config.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:55:35 5735 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:55:35 5749 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jwtFilter' of type [com.example.demo.login.filter.JwtFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:55:35 5769 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-25 15:55:36 6237 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2021-03-25 15:55:36 6252 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2021-03-25 15:55:36 6252 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-25 15:55:36 6253 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-25 15:55:36 6546 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-03-25 15:55:36 6547 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5068 ms
+2021-03-25 15:55:36 6763 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.zaxxer.hikari.HikariDataSource - travel - Starting...
+2021-03-25 15:55:37 6979 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.zaxxer.hikari.HikariDataSource - travel - Start completed.
+2021-03-25 15:55:37 7127 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-25 15:55:37 7226 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-03-25 15:55:37 7446 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-25 15:55:37 7661 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-03-25 15:55:38 8661 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-25 15:55:38 8680 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-25 15:55:39 9574 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-25 15:55:39 9751 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-25 15:55:40 10366 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2021-03-25 15:55:40 10392 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2021-03-25 15:55:40 10393 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-03-25 15:55:40 10420 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-03-25 15:55:40 10466 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-03-25 15:55:41 10858 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingGET_1
+2021-03-25 15:55:41 10894 [34mINFO [0;39m [module.name_IS_UNDEFINED|main]
+                    com.example.demo.DemoApplication - Started DemoApplication in 10.31 seconds (JVM running for 13.069)
+2021-03-25 15:55:47 17694 [34mINFO [0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-25 15:55:47 17695 [34mINFO [0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-03-25 15:55:47 17696 [34mINFO [0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms

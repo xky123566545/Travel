@@ -1,0 +1,22 @@
+2021-03-17 15:22:10 25141646 [1;31mERROR[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.hotel.controller.HotelController - 新增失败
+2021-03-17 15:23:53 25244282 [1;31mERROR[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.hotel.controller.HotelController - 新增失败
+2021-03-17 15:30:38 201371 [1;31mERROR[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.controller.HotelController - 新增失败
+2021-03-17 15:31:20 36425 [1;31mERROR[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.hotel.controller.HotelController - 新增失败
+2021-03-17 15:33:14 82619 [1;31mERROR[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.controller.HotelController - 新增失败
+2021-03-17 20:52:30 5617416 [1;31mERROR[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.controller.HotelController - 新增失败
+2021-03-17 20:57:01 5887944 [1;31mERROR[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.hotel.controller.HotelController - 新增失败
+2021-03-17 20:57:05 5892080 [1;31mERROR[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.hotel.controller.HotelController - 新增失败
+2021-03-17 20:57:56 5942942 [1;31mERROR[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.controller.HotelController - 新增失败
+2021-03-17 20:58:29 5976534 [1;31mERROR[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.hotel.controller.HotelController - 新增失败
+2021-03-17 20:59:28 6035092 [1;31mERROR[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.controller.HotelController - 新增失败

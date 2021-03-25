@@ -1,0 +1,300 @@
+2021-03-15 10:49:59 1889531 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 10:49:59 1889568 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 10:49:59 1889634 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 10:49:59 1889640 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 10:49:59 1889641 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 10:49:59 1889649 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 10:50:19 1909977 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 10:50:19 1909977 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 10:50:19 1909978 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 10:50:19 1909978 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 10:50:19 1909979 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 10:50:19 1909986 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 10:50:21 1911544 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 10:50:21 1911544 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 10:50:21 1911545 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 10:50:21 1911546 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 10:50:21 1911546 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 10:50:21 1911549 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 10:50:22 1912746 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 10:50:22 1912747 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 10:50:22 1912752 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 10:50:22 1912753 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 10:50:22 1912755 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 10:50:22 1912760 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 11:13:35 3305597 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 11:13:35 3305597 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 11:13:35 3305598 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 11:13:35 3305599 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 11:13:35 3305599 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 11:13:35 3305601 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 11:14:35 3365263 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 11:14:35 3365264 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 11:14:35 3365265 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 11:14:35 3365265 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 11:14:35 3365265 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 11:14:35 3365271 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 11:14:36 3366823 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 11:14:36 3366823 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 11:14:36 3366824 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 11:14:36 3366825 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 11:14:36 3366825 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 11:14:36 3366827 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 11:15:51 3441177 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 11:15:51 3441177 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 11:15:51 3441178 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 11:15:51 3441179 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 11:15:51 3441180 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 11:15:51 3441183 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 11:29:10 4240683 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 11:29:10 4240683 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 11:29:10 4240719 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 11:29:10 4240719 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 11:29:10 4240720 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 11:29:10 4240722 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 11:29:50 4280955 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 11:29:50 4280956 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 11:29:50 4280957 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 11:29:50 4280957 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 11:29:50 4280957 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 11:29:50 4280961 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 11:34:01 4531134 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 11:34:01 4531134 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 11:34:01 4531136 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 11:34:01 4531136 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 11:34:01 4531136 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 11:34:01 4531139 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 11:34:03 4533532 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 11:34:03 4533532 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 11:34:03 4533533 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 11:34:03 4533533 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 11:34:03 4533534 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 11:34:03 4533540 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 11:34:09 4539896 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 11:34:09 4539896 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 11:34:09 4539897 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 11:34:09 4539897 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 11:34:09 4539897 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 11:34:09 4539900 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 14:31:39 2537014 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 14:31:39 2537074 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 14:31:39 2537113 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 14:31:39 2537121 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 14:31:39 2537122 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 14:31:39 2537129 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 14:31:49 2547400 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 14:31:49 2547401 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 14:31:49 2547402 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 14:31:49 2547403 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 14:31:49 2547403 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 14:31:49 2547409 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 14:31:50 2548452 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 14:31:50 2548452 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 14:31:50 2548454 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 14:31:50 2548454 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 14:31:50 2548454 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 14:31:50 2548459 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 17:18:32 122012 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 17:18:32 122039 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 17:18:32 122076 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 17:18:32 122079 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 17:18:32 122080 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 17:18:32 122085 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 17:23:57 446346 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 17:23:57 446347 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 17:23:57 446348 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 17:23:57 446349 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 17:23:57 446349 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 17:23:57 446354 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 17:27:21 650677 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 17:27:21 650677 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 17:27:21 650679 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 17:27:21 650679 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 17:27:21 650680 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 17:27:21 650683 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 17:29:18 767954 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 17:29:18 767955 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 17:29:18 767956 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 17:29:18 767956 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 17:29:18 767956 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 17:29:18 767959 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 17:30:04 813587 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 17:30:04 813588 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 17:30:04 813589 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 17:30:04 813589 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 17:30:04 813589 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 17:30:04 813592 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 17:33:23 1013161 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 17:33:23 1013161 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 17:33:23 1013163 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 17:33:23 1013163 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 17:33:23 1013163 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 17:33:23 1013168 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 17:34:02 1051452 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 17:34:02 1051453 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 17:34:02 1051453 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 17:34:02 1051454 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 17:34:02 1051454 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 17:34:02 1051456 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 17:35:55 1164832 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 17:35:55 1164833 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 17:35:55 1164834 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 17:35:55 1164834 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 17:35:55 1164835 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 17:35:55 1164838 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10
+2021-03-15 17:36:57 1226290 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 INNER JOIN (SELECT hotel_type_id, hotel_type_name, hotel_id, hotel_type_price, hotel_type_stock, img_id, version FROM hotel_detail WHERE is_delete = 0) h2 ON h1.hotel_id = h2.hotel_id WHERE 0 = 0
+2021-03-15 17:36:57 1226290 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-15 17:36:57 1226291 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-15 17:36:57 1226291 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 inner JOIN (select hotel_type_id,hotel_type_name,hotel_id,hotel_type_price,hotel_type_stock,img_id,version from hotel_detail where is_delete = 0) h2 on h1.hotel_id = h2.hotel_id WHERE 0 = 0 LIMIT ?
+2021-03-15 17:36:57 1226292 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 10(Integer)
+2021-03-15 17:36:57 1226293 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 10

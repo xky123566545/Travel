@@ -1,0 +1,394 @@
+2021-03-03 19:58:07 239850 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 19:58:07 239883 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 19:58:07 239942 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 19:58:07 239947 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 19:58:07 239948 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 19:58:07 239956 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 20:11:48 1060969 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 20:11:48 1060970 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 20:11:48 1060971 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 20:11:48 1060972 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 20:11:48 1060972 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 20:11:48 1060979 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 20:28:32 2064919 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 20:28:32 2064919 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 20:28:32 2064923 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 20:28:32 2064923 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 20:28:32 2064924 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 20:28:32 2064926 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 21:21:52 164629 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 21:21:52 164682 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 21:21:52 164697 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 21:21:52 164701 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 21:21:52 164702 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 21:21:52 164709 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 21:26:33 75185 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.goodseva.mapper.GoodsEvaMapper.saveGoodsEva - ==>  Preparing: insert into goods_eva values ( ?, ?, ?, ?, ?, 0, ?, now(), ?, now(), 0 )
+2021-03-03 21:26:33 75235 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.goodseva.mapper.GoodsEvaMapper.saveGoodsEva - ==> Parameters: order814588473892667392(String), HTD813806264055234560(String), 5.0(Double), 好，很好，非常好(String), admin(String), admin(String), admin(String)
+2021-03-03 21:26:33 75250 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.goodseva.mapper.GoodsEvaMapper.saveGoodsEva - <==    Updates: 1
+2021-03-03 21:26:33 75251 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.goodseva.mapper.GoodsEvaMapper.updateHotelGoodsEva - ==>  Preparing: update hotel_info set hotel_star = (hotel_star + ?) / 2 where hotel_id = ?
+2021-03-03 21:30:09 120095 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 21:30:09 120121 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 21:30:09 120134 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 21:30:09 120138 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 21:30:09 120139 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 21:30:09 120145 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 21:31:37 207996 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 21:31:37 207996 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 21:31:37 207997 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 21:31:37 207997 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 21:31:37 207998 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 21:31:37 208004 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 21:33:53 344885 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 21:33:53 344886 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 21:33:53 344887 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 21:33:53 344887 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 21:33:53 344887 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 21:33:53 344889 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 21:37:31 562590 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.goodseva.mapper.GoodsEvaMapper.saveGoodsEva - ==>  Preparing: insert into goods_eva values ( ?, ?, ?, ?, ?, 0, ?, now(), ?, now(), 0 )
+2021-03-03 21:37:31 562591 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.goodseva.mapper.GoodsEvaMapper.saveGoodsEva - ==> Parameters: order814588473892667392(String), HTD813806264055234560(String), 5.0(Double), 好，很好，非常好(String), admin(String), admin(String), admin(String)
+2021-03-03 21:37:31 562604 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.goodseva.mapper.GoodsEvaMapper.saveGoodsEva - <==    Updates: 1
+2021-03-03 21:37:31 562605 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.goodseva.mapper.GoodsEvaMapper.updateHotelGoodsEva - ==>  Preparing: update hotel_info set hotel_star = (hotel_star + ?) / 2 where hotel_id = ?
+2021-03-03 21:37:31 562607 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.goodseva.mapper.GoodsEvaMapper.updateHotelGoodsEva - ==> Parameters: 5.0(Double), HTD813806264055234560(String)
+2021-03-03 21:37:31 562616 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.goodseva.mapper.GoodsEvaMapper.updateHotelGoodsEva - <==    Updates: 0
+2021-03-03 21:38:05 596158 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.goodseva.mapper.GoodsEvaMapper.saveGoodsEva - ==>  Preparing: insert into goods_eva values ( ?, ?, ?, ?, ?, 0, ?, now(), ?, now(), 0 )
+2021-03-03 21:38:05 596159 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.goodseva.mapper.GoodsEvaMapper.saveGoodsEva - ==> Parameters: order814588473892667392(String), HTD813806264055234560(String), 5.0(Double), 好(String), admin(String), admin(String), admin(String)
+2021-03-03 21:38:05 596163 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.goodseva.mapper.GoodsEvaMapper.saveGoodsEva - <==    Updates: 1
+2021-03-03 21:38:05 596163 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.goodseva.mapper.GoodsEvaMapper.updateHotelGoodsEva - ==>  Preparing: update hotel_info set hotel_star = (hotel_star + ?) / 2 where hotel_id = ?
+2021-03-03 21:38:05 596163 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.goodseva.mapper.GoodsEvaMapper.updateHotelGoodsEva - ==> Parameters: 5.0(Double), HTD813806264055234560(String)
+2021-03-03 21:38:05 596164 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.goodseva.mapper.GoodsEvaMapper.updateHotelGoodsEva - <==    Updates: 0
+2021-03-03 21:55:55 1666333 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 21:55:55 1666334 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 21:55:55 1666335 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 21:55:55 1666335 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 21:55:55 1666335 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 21:55:55 1666338 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 21:59:54 1905646 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 21:59:54 1905646 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 21:59:54 1905647 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 21:59:54 1905647 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 21:59:54 1905648 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 21:59:54 1905650 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 22:01:30 2001744 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 22:01:30 2001744 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 22:01:30 2001745 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 22:01:30 2001746 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 22:01:30 2001746 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 22:01:30 2001748 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 22:04:18 2169905 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 22:04:18 2169905 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 22:04:18 2169906 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 22:04:18 2169907 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 22:04:18 2169907 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 22:04:18 2169909 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 22:04:56 2207056 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 22:04:56 2207056 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 22:04:56 2207057 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 22:04:56 2207057 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 22:04:56 2207057 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 22:04:56 2207060 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 22:07:49 2380636 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 22:07:49 2380637 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 22:07:49 2380637 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 22:07:49 2380638 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 22:07:49 2380638 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 22:07:49 2380640 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 22:07:53 2384661 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 22:07:53 2384661 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 22:07:53 2384662 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 22:07:53 2384662 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 22:07:53 2384663 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 22:07:53 2384665 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 22:09:39 2490607 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 22:09:39 2490607 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 22:09:39 2490608 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 22:09:39 2490608 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 22:09:39 2490609 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 22:09:39 2490610 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 22:10:48 2559699 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 22:10:48 2559699 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 22:10:48 2559700 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 22:10:48 2559700 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 22:10:48 2559701 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 22:10:48 2559702 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 22:11:05 2576314 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 22:11:05 2576314 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 22:11:05 2576315 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 22:11:05 2576315 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 22:11:05 2576315 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 22:11:05 2576317 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 22:23:08 3299258 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 22:23:08 3299258 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 22:23:08 3299259 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 22:23:08 3299260 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 22:23:08 3299260 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 22:23:08 3299262 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 22:23:14 3305808 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 22:23:14 3305808 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 22:23:14 3305809 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 22:23:14 3305809 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 22:23:14 3305809 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 22:23:14 3305811 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 22:23:40 3330957 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.countUserName - ==>  Preparing: select count(user_name) from user_info where user_name = ? and is_delete = 0
+2021-03-03 22:23:40 3330957 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.countUserName - ==> Parameters: null
+2021-03-03 22:23:40 3330959 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.countUserName - <==      Total: 1
+2021-03-03 22:23:40 3330960 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.saveUser - ==>  Preparing: insert into user_info ( user_id, user_name, user_password, user_role, user_sex, user_phone, user_email, user_age, belong_to, user_picture, is_delete, create_user, create_time, update_user, update_time, version ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0, ?, now(), ?, now(), 0 )
+2021-03-03 22:23:40 3330962 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.user.mapper.UserMapper.saveUser - ==> Parameters: 816798006064971776(String), null, null, null, null, null, null, null, null, null, 816798006064971776(String), 816798006064971776(String)
+2021-03-03 22:31:07 3777920 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.countUserName - ==>  Preparing: select count(user_name) from user_info where user_name = ? and is_delete = 0
+2021-03-03 22:31:07 3777920 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.countUserName - ==> Parameters: null
+2021-03-03 22:31:07 3777924 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.countUserName - <==      Total: 1
+2021-03-03 22:31:07 3777925 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.saveUser - ==>  Preparing: insert into user_info ( user_id, user_name, user_password, user_role, user_sex, user_phone, user_email, user_age, belong_to, user_picture, is_delete, create_user, create_time, update_user, update_time, version ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0, ?, now(), ?, now(), 0 )
+2021-03-03 22:31:07 3777927 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.saveUser - ==> Parameters: 816799880818196480(String), null, null, null, null, null, null, null, null, null, 816799880818196480(String), 816799880818196480(String)
+2021-03-03 22:36:20 154027 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.user.mapper.UserMapper.countUserName - ==>  Preparing: select count(user_name) from user_info where user_name = ? and is_delete = 0
+2021-03-03 22:36:20 154056 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.user.mapper.UserMapper.countUserName - ==> Parameters: null
+2021-03-03 22:36:20 154077 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.user.mapper.UserMapper.countUserName - <==      Total: 1
+2021-03-03 22:36:20 154087 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.user.mapper.UserMapper.saveUser - ==>  Preparing: insert into user_info ( user_id, user_name, user_password, user_role, user_sex, user_phone, user_email, user_age, belong_to, user_picture, is_delete, create_user, create_time, update_user, update_time, version ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0, ?, now(), ?, now(), 0 )
+2021-03-03 22:36:20 154089 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.user.mapper.UserMapper.saveUser - ==> Parameters: 816800788524302336(String), null, null, null, null, null, null, null, null, null, 816800788524302336(String), 816800788524302336(String)
+2021-03-03 22:36:21 154253 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 22:36:21 154254 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 22:36:21 154255 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 22:36:21 154259 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 22:36:21 154259 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 22:36:21 154268 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 22:36:48 22806 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.user.mapper.UserMapper.countUserName - ==>  Preparing: select count(user_name) from user_info where user_name = ? and is_delete = 0
+2021-03-03 22:36:48 22833 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.user.mapper.UserMapper.countUserName - ==> Parameters: null
+2021-03-03 22:36:48 22850 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.user.mapper.UserMapper.countUserName - <==      Total: 1
+2021-03-03 22:36:48 22852 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.user.mapper.UserMapper.saveUser - ==>  Preparing: insert into user_info ( user_id, user_name, user_password, user_role, user_sex, user_phone, user_email, user_age, belong_to, user_picture, is_delete, create_user, create_time, update_user, update_time, version ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0, ?, now(), ?, now(), 0 )
+2021-03-03 22:36:48 22854 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.user.mapper.UserMapper.saveUser - ==> Parameters: 816801311101026304(String), null, null, null, null, null, null, null, null, null, 816801311101026304(String), 816801311101026304(String)
+2021-03-03 22:39:38 192840 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 22:39:38 192840 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 22:39:38 192841 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 22:39:38 192844 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 22:39:38 192844 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 22:39:38 192863 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 22:40:01 216054 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.user.mapper.UserMapper.countUserName - ==>  Preparing: select count(user_name) from user_info where user_name = ? and is_delete = 0
+2021-03-03 22:40:01 216055 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.user.mapper.UserMapper.countUserName - ==> Parameters: null
+2021-03-03 22:40:01 216056 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.user.mapper.UserMapper.countUserName - <==      Total: 1
+2021-03-03 22:40:01 216056 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.user.mapper.UserMapper.saveUser - ==>  Preparing: insert into user_info ( user_id, user_name, user_password, user_role, user_sex, user_phone, user_email, user_age, belong_to, user_picture, is_delete, create_user, create_time, update_user, update_time, version ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0, ?, now(), ?, now(), 0 )
+2021-03-03 22:40:01 216057 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.user.mapper.UserMapper.saveUser - ==> Parameters: 816802121780297728(String), null, null, null, null, null, null, null, null, null, 816802121780297728(String), 816802121780297728(String)
+2021-03-03 22:41:50 324819 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 22:41:50 324820 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 22:41:50 324821 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 22:41:50 324821 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 22:41:50 324821 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 22:41:50 324827 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 22:41:52 327710 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 22:41:52 327710 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 22:41:52 327711 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 22:41:52 327712 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 22:41:52 327712 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 22:41:52 327715 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 22:42:38 373743 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.user.mapper.UserMapper.countUserName - ==>  Preparing: select count(user_name) from user_info where user_name = ? and is_delete = 0
+2021-03-03 22:42:38 373743 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.user.mapper.UserMapper.countUserName - ==> Parameters: aaa(String)
+2021-03-03 22:42:38 373744 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.user.mapper.UserMapper.countUserName - <==      Total: 1
+2021-03-03 22:42:38 373745 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.user.mapper.UserMapper.saveUser - ==>  Preparing: insert into user_info ( user_id, user_name, user_password, user_role, user_sex, user_phone, user_email, user_age, belong_to, user_picture, is_delete, create_user, create_time, update_user, update_time, version ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0, ?, now(), ?, now(), 0 )
+2021-03-03 22:42:38 373746 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.user.mapper.UserMapper.saveUser - ==> Parameters: 816802783180095488(String), aaa(String), cmdChYSY5CUkbFpTVmhLLw==
+(String), 1(Integer), 1(Integer), null, 684298745@qq.com(String), 20(Integer), 1(Integer), https://xky-1301905305.cos.ap-chengdu.myqcloud.com/travel/2021/2/3/c29d02ee-4beb-4475-8fc7-cfb49a437977.jpg(String), 816802783180095488(String), 816802783180095488(String)
+2021-03-03 22:46:14 589268 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user_info u WHERE 1 = 1 AND is_delete = 0
+2021-03-03 22:46:14 589269 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - ==> Parameters: 
+2021-03-03 22:46:14 589269 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers_COUNT - <==      Total: 1
+2021-03-03 22:46:14 589270 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==>  Preparing: select * from user_info u WHERE 1=1 and is_delete = 0 LIMIT ?
+2021-03-03 22:46:14 589270 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers - ==> Parameters: 10(Integer)
+2021-03-03 22:46:14 589272 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.user.mapper.UserMapper.getUsers - <==      Total: 10
+2021-03-03 22:46:51 626461 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.user.mapper.UserMapper.countUserName - ==>  Preparing: select count(user_name) from user_info where user_name = ? and is_delete = 0
+2021-03-03 22:46:51 626461 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.user.mapper.UserMapper.countUserName - ==> Parameters: aaa(String)
+2021-03-03 22:46:51 626462 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.user.mapper.UserMapper.countUserName - <==      Total: 1
+2021-03-03 22:46:51 626462 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.user.mapper.UserMapper.saveUser - ==>  Preparing: insert into user_info ( user_id, user_name, user_password, user_role, user_sex, user_phone, user_email, user_age, belong_to, user_picture, is_delete, create_user, create_time, update_user, update_time, version ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0, ?, now(), ?, now(), 0 )
+2021-03-03 22:46:51 626463 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.user.mapper.UserMapper.saveUser - ==> Parameters: 816803843160408064(String), aaa(String), cmdChYSY5CUkbFpTVmhLLw==
+(String), 1(Integer), 1(Integer), 6984129854126(String), 685419841265@qq.com(String), 20(Integer), 1(Integer), https://xky-1301905305.cos.ap-chengdu.myqcloud.com/travel/2021/2/3/f71869bd-cc28-413e-baf3-8e4ef9817a33.jpg(String), 816803843160408064(String), 816803843160408064(String)
+2021-03-03 22:46:51 626469 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.user.mapper.UserMapper.saveUser - <==    Updates: 1

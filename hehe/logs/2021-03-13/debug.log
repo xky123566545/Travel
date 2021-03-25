@@ -1,0 +1,94 @@
+2021-03-13 10:53:30 37975 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==>  Preparing: select * from area where Id = {pid}
+2021-03-13 10:53:30 38012 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==> Parameters: 
+2021-03-13 10:54:20 26566 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==>  Preparing: select * from area where Id = ?
+2021-03-13 10:54:20 26596 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==> Parameters: 0(String)
+2021-03-13 10:54:20 26641 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.area.mapper.AreaMapper.getArea - <==      Total: 1
+2021-03-13 10:56:15 36432 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==>  Preparing: select * from area where Pid = ?
+2021-03-13 10:56:16 36465 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==> Parameters: 0(String)
+2021-03-13 10:56:16 36505 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.area.mapper.AreaMapper.getArea - <==      Total: 33
+2021-03-13 10:56:48 69169 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==>  Preparing: select * from area where Pid = ?
+2021-03-13 10:56:48 69169 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==> Parameters: 440000(String)
+2021-03-13 10:56:48 69174 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.area.mapper.AreaMapper.getArea - <==      Total: 21
+2021-03-13 10:57:11 91871 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==>  Preparing: select * from area where Pid = ?
+2021-03-13 10:57:11 91872 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==> Parameters: 440100(String)
+2021-03-13 10:57:11 91873 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.area.mapper.AreaMapper.getArea - <==      Total: 3
+2021-03-13 10:57:37 117773 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==>  Preparing: select * from area where Pid = ?
+2021-03-13 10:57:37 117774 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==> Parameters: 440000(String)
+2021-03-13 10:57:37 117776 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.area.mapper.AreaMapper.getArea - <==      Total: 21
+2021-03-13 10:57:59 139679 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==>  Preparing: select * from area where Pid = ?
+2021-03-13 10:57:59 139679 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==> Parameters: 440200(String)
+2021-03-13 10:57:59 139680 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.area.mapper.AreaMapper.getArea - <==      Total: 8
+2021-03-13 10:58:15 155508 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==>  Preparing: select * from area where Pid = ?
+2021-03-13 10:58:15 155508 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==> Parameters: 440100(String)
+2021-03-13 10:58:15 155509 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.area.mapper.AreaMapper.getArea - <==      Total: 3
+2021-03-13 11:25:46 63455 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==>  Preparing: select * from area where Pid = ?
+2021-03-13 11:25:46 63487 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==> Parameters: 0(String)
+2021-03-13 11:25:46 63512 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.area.mapper.AreaMapper.getArea - <==      Total: 34
+2021-03-13 11:26:14 91353 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==>  Preparing: select * from area where Pid = ?
+2021-03-13 11:26:14 91353 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==> Parameters: 1922(String)
+2021-03-13 11:26:14 91356 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.area.mapper.AreaMapper.getArea - <==      Total: 21
+2021-03-13 11:26:25 101979 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==>  Preparing: select * from area where Pid = ?
+2021-03-13 11:26:25 101979 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==> Parameters: 1923(String)
+2021-03-13 11:26:25 101981 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.area.mapper.AreaMapper.getArea - <==      Total: 11
+2021-03-13 11:26:35 111803 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==>  Preparing: select * from area where Pid = ?
+2021-03-13 11:26:35 111803 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==> Parameters: 1925(String)
+2021-03-13 11:26:35 111805 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.area.mapper.AreaMapper.getArea - <==      Total: 0
+2021-03-13 11:26:40 117316 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==>  Preparing: select * from area where Pid = ?
+2021-03-13 11:26:40 117317 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==> Parameters: 1924(String)
+2021-03-13 11:26:40 117319 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.area.mapper.AreaMapper.getArea - <==      Total: 0
+2021-03-13 11:33:13 510475 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==>  Preparing: select * from area where Pid = ?
+2021-03-13 11:33:13 510476 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==> Parameters: 0(String)
+2021-03-13 11:33:13 510479 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.area.mapper.AreaMapper.getArea - <==      Total: 34
+2021-03-13 11:34:56 59282 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==>  Preparing: select * from area where Pid = ?
+2021-03-13 11:34:56 59307 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==> Parameters: null
+2021-03-13 11:34:56 59327 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.area.mapper.AreaMapper.getArea - <==      Total: 0
+2021-03-13 11:35:49 112340 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==>  Preparing: select * from area where Pid = ?
+2021-03-13 11:35:49 112341 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==> Parameters: 0(String)
+2021-03-13 11:35:49 112351 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.area.mapper.AreaMapper.getArea - <==      Total: 34

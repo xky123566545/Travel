@@ -1,0 +1,447 @@
+2021-03-23 08:25:09 42639 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-03-23 08:25:09 42674 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-03-23 08:25:09 42851 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-03-23 08:27:10 163088 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-03-23 08:27:10 163090 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-03-23 08:27:10 163091 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-03-23 08:27:10 163093 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-03-23 08:27:10 163093 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-03-23 08:27:10 163205 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-03-23 08:27:16 169164 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_name 'username', user_password 'password' from user_info where user_name = ?
+2021-03-23 08:27:16 169165 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-03-23 08:27:16 169166 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-03-23 08:27:16 169495 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.scenic.mapper.ScenicMapper.getScenic_COUNT - ==>  Preparing: SELECT count(0) FROM scenic_info WHERE 1 = 1 AND is_delete = 0
+2021-03-23 08:27:16 169496 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.scenic.mapper.ScenicMapper.getScenic_COUNT - ==> Parameters: 
+2021-03-23 08:27:16 169769 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.scenic.mapper.ScenicMapper.getScenic_COUNT - <==      Total: 1
+2021-03-23 08:27:16 169771 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.scenic.mapper.ScenicMapper.getScenic - ==>  Preparing: select * from scenic_info WHERE 1 = 1 and is_delete = 0 LIMIT ?
+2021-03-23 08:27:16 169772 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.scenic.mapper.ScenicMapper.getScenic - ==> Parameters: 20(Integer)
+2021-03-23 08:27:16 169791 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.scenic.mapper.ScenicMapper.getScenic - <==      Total: 6
+2021-03-23 08:36:37 232415 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.user.mapper.UserMapper.countUserName - ==>  Preparing: select count(user_name) from user_info where user_name = ? and is_delete = 0
+2021-03-23 08:36:37 232441 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.user.mapper.UserMapper.countUserName - ==> Parameters: 11111(String)
+2021-03-23 08:36:37 232663 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.user.mapper.UserMapper.countUserName - <==      Total: 1
+2021-03-23 08:36:37 232665 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.user.mapper.UserMapper.saveUser - ==>  Preparing: insert into user_info ( user_id, user_name, user_password, user_role, user_sex, user_phone, user_email, user_age, belong_to, user_picture, is_delete, create_user, create_time, update_user, update_time, version ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0, ?, now(), ?, now(), 0 )
+2021-03-23 08:36:37 232667 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.user.mapper.UserMapper.saveUser - ==> Parameters: 823837629664460800(String), 11111(String), p+PByc3Hf5N/M7s3ATaj1g==
+(String), 1(Integer), 1(Integer), 111(String), 1111111111(String), 20(Integer), 1(Integer), 1111(String), 823837629664460800(String), 823837629664460800(String)
+2021-03-23 08:36:37 232820 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.user.mapper.UserMapper.saveUser - <==    Updates: 1
+2021-03-23 08:41:19 514850 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.scenic.mapper.ScenicMapper.getScenic_COUNT - ==>  Preparing: SELECT count(0) FROM scenic_info WHERE 1 = 1 AND is_delete = 0
+2021-03-23 08:41:19 514851 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.scenic.mapper.ScenicMapper.getScenic_COUNT - ==> Parameters: 
+2021-03-23 08:41:19 514993 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.scenic.mapper.ScenicMapper.getScenic_COUNT - <==      Total: 1
+2021-03-23 08:41:19 514995 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.scenic.mapper.ScenicMapper.getScenic - ==>  Preparing: select * from scenic_info WHERE 1 = 1 and is_delete = 0 LIMIT ?
+2021-03-23 08:41:19 514995 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.scenic.mapper.ScenicMapper.getScenic - ==> Parameters: 20(Integer)
+2021-03-23 08:41:19 515002 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.scenic.mapper.ScenicMapper.getScenic - <==      Total: 6
+2021-03-23 08:41:51 547187 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.scenic.mapper.ScenicMapper.getScenic_COUNT - ==>  Preparing: SELECT count(0) FROM scenic_info WHERE 1 = 1 AND scenic_name LIKE concat('%', ?, '%') AND is_delete = 0
+2021-03-23 08:41:51 547187 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.scenic.mapper.ScenicMapper.getScenic_COUNT - ==> Parameters: 西湖(String)
+2021-03-23 08:41:51 547238 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.scenic.mapper.ScenicMapper.getScenic_COUNT - <==      Total: 1
+2021-03-23 08:41:51 547239 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.scenic.mapper.ScenicMapper.getScenic - ==>  Preparing: select * from scenic_info WHERE 1 = 1 and scenic_name like concat('%',?,'%') and is_delete = 0 LIMIT ?
+2021-03-23 08:41:51 547239 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.scenic.mapper.ScenicMapper.getScenic - ==> Parameters: 西湖(String), 20(Integer)
+2021-03-23 08:41:51 547263 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.scenic.mapper.ScenicMapper.getScenic - <==      Total: 1
+2021-03-23 08:42:48 603374 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.goodsclassify.mapper.ClassifyMapper.getClassify_COUNT - ==>  Preparing: SELECT count(0) FROM classify_info WHERE 1 = 1 AND is_delete = 0
+2021-03-23 08:42:48 603375 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.goodsclassify.mapper.ClassifyMapper.getClassify_COUNT - ==> Parameters: 
+2021-03-23 08:42:48 603486 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.goodsclassify.mapper.ClassifyMapper.getClassify_COUNT - <==      Total: 1
+2021-03-23 08:42:48 603487 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.goodsclassify.mapper.ClassifyMapper.getClassify - ==>  Preparing: select * from classify_info WHERE 1 = 1 and is_delete = 0 LIMIT ?
+2021-03-23 08:42:48 603487 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.goodsclassify.mapper.ClassifyMapper.getClassify - ==> Parameters: 20(Integer)
+2021-03-23 08:42:48 603497 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.goodsclassify.mapper.ClassifyMapper.getClassify - <==      Total: 14
+2021-03-23 15:34:03 25278494 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==>  Preparing: select * from area where Pid = ?
+2021-03-23 15:34:03 25278586 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==> Parameters: null
+2021-03-23 15:34:03 25279017 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-6]
+                    com.example.demo.area.mapper.AreaMapper.getArea - <==      Total: 0
+2021-03-23 15:34:18 25293385 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==>  Preparing: select * from area where Pid = ?
+2021-03-23 15:34:18 25293386 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.area.mapper.AreaMapper.getArea - ==> Parameters: 0(String)
+2021-03-23 15:34:18 25293614 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.area.mapper.AreaMapper.getArea - <==      Total: 34
+2021-03-23 15:40:37 25673276 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==>  Preparing: SELECT count(0) FROM order_info o1 INNER JOIN order_detail o2 ON o1.order_id = o2.order_id WHERE o1.is_delete = 0 AND o2.is_delete = 0
+2021-03-23 15:40:37 25673283 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==> Parameters: 
+2021-03-23 15:40:38 25673553 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - <==      Total: 1
+2021-03-23 15:40:38 25673561 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==>  Preparing: select * from order_info o1 inner join order_detail o2 on o1.order_id = o2.order_id where o1.is_delete = 0 and o2.is_delete = 0 LIMIT ?
+2021-03-23 15:40:38 25673574 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==> Parameters: 20(Integer)
+2021-03-23 15:40:38 25673756 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - <==      Total: 6
+2021-03-23 15:40:48 25683717 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==>  Preparing: SELECT count(0) FROM order_info o1 INNER JOIN order_detail o2 ON o1.order_id = o2.order_id WHERE o1.is_delete = 0 AND o2.is_delete = 0
+2021-03-23 15:40:48 25683717 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==> Parameters: 
+2021-03-23 15:40:48 25683718 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - <==      Total: 1
+2021-03-23 15:40:48 25683719 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==>  Preparing: select * from order_info o1 inner join order_detail o2 on o1.order_id = o2.order_id where o1.is_delete = 0 and o2.is_delete = 0 LIMIT ?
+2021-03-23 15:40:48 25683719 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==> Parameters: 5(Integer)
+2021-03-23 15:40:48 25683723 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - <==      Total: 5
+2021-03-23 15:42:44 25800008 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==>  Preparing: SELECT count(0) FROM order_info o1 INNER JOIN order_detail o2 ON o1.order_id = o2.order_id WHERE o1.is_delete = 0 AND o2.is_delete = 0
+2021-03-23 15:42:44 25800008 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==> Parameters: 
+2021-03-23 15:42:44 25800029 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - <==      Total: 1
+2021-03-23 15:42:44 25800029 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==>  Preparing: select * from order_info o1 inner join order_detail o2 on o1.order_id = o2.order_id where o1.is_delete = 0 and o2.is_delete = 0 LIMIT ?
+2021-03-23 15:42:44 25800030 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==> Parameters: 2(Integer)
+2021-03-23 15:42:44 25800036 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - <==      Total: 2
+2021-03-23 15:46:13 26009182 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - ==>  Preparing: insert into user_info values ( ?, ?, ?, 3, ?, 123, 123, 20, 0, ?, 0, ?, now(), ?, now(), 0 )
+2021-03-23 15:46:13 26009189 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - ==> Parameters: oE4Zr5xLxvzHMoHhzP98iW44TYqA(String), 哟(String), cmdChYSY5CUkbFpTVmhLLw==
+(String), 1(String), https://thirdwx.qlogo.cn/mmopen/vi_32/tqLxfY79Hh4PQI3tVD6W1hEBYqWPNJnXYyVJCvty8lTA3GZWffBysyE2q30dXHJRNcU3uewiblLJ9YWoW4C3Vnw/132(String), 哟(String), 哟(String)
+2021-03-23 15:47:54 26110111 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - ==>  Preparing: insert into user_info values ( ?, ?, ?, 3, ?, 123, 123, 20, 0, ?, 0, ?, now(), ?, now(), 0 )
+2021-03-23 15:47:54 26110113 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-5]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - ==> Parameters: oE4Zr5xLxvzHMoHhzP98iW44TYqA(String), 哟(String), cmdChYSY5CUkbFpTVmhLLw==
+(String), 1(String), https://thirdwx.qlogo.cn/mmopen/vi_32/tqLxfY79Hh4PQI3tVD6W1hEBYqWPNJnXYyVJCvty8lTA3GZWffBysyE2q30dXHJRNcU3uewiblLJ9YWoW4C3Vnw/132(String), 哟(String), 哟(String)
+2021-03-23 15:48:42 26157586 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - ==>  Preparing: insert into user_info values ( ?, ?, ?, 3, ?, 123, 123, 20, 0, ?, 0, ?, now(), ?, now(), 0 )
+2021-03-23 15:48:42 26157587 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - ==> Parameters: oE4Zr5xLxvzHMoHhzP98iW44TYqA(String), 哟(String), cmdChYSY5CUkbFpTVmhLLw==
+(String), 1(String), https://thirdwx.qlogo.cn/mmopen/vi_32/tqLxfY79Hh4PQI3tVD6W1hEBYqWPNJnXYyVJCvty8lTA3GZWffBysyE2q30dXHJRNcU3uewiblLJ9YWoW4C3Vnw/132(String), 哟(String), 哟(String)
+2021-03-23 15:59:06 188326 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - ==>  Preparing: insert into user_info values ( ?, ?, ?, 3, ?, 123, 123, 20, 0, ?, 0, ?, now(), ?, now(), 0 )
+2021-03-23 15:59:06 188362 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - ==> Parameters: oE4Zr5xLxvzHMoHhzP98iW44TYqA(String), 哟(String), cmdChYSY5CUkbFpTVmhLLw==
+(String), 1(String), https://thirdwx.qlogo.cn/mmopen/vi_32/tqLxfY79Hh4PQI3tVD6W1hEBYqWPNJnXYyVJCvty8lTA3GZWffBysyE2q30dXHJRNcU3uewiblLJ9YWoW4C3Vnw/132(String), 哟(String), 哟(String)
+2021-03-23 16:05:45 586861 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - ==>  Preparing: insert into user_info values ( ?, ?, ?, 3, ?, 123, 123, 20, 0, ?, 0, ?, now(), ?, now(), 0 )
+2021-03-23 16:05:45 586862 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - ==> Parameters: oE4Zr5xLxvzHMoHhzP98iW44TYqA(String), 哟(String), cmdChYSY5CUkbFpTVmhLLw==
+(String), 1(String), https://thirdwx.qlogo.cn/mmopen/vi_32/tqLxfY79Hh4PQI3tVD6W1hEBYqWPNJnXYyVJCvty8lTA3GZWffBysyE2q30dXHJRNcU3uewiblLJ9YWoW4C3Vnw/132(String), 哟(String), 哟(String)
+2021-03-23 16:06:53 45288 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - ==>  Preparing: insert into user_info values ( ?, ?, ?, 3, ?, 123, 123, 20, 0, ?, 0, ?, now(), ?, now(), 0 )
+2021-03-23 16:06:53 45324 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-10]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - ==> Parameters: oE4Zr5xLxvzHMoHhzP98iW44TYqA(String), 哟(String), cmdChYSY5CUkbFpTVmhLLw==
+(String), 1(String), https://thirdwx.qlogo.cn/mmopen/vi_32/tqLxfY79Hh4PQI3tVD6W1hEBYqWPNJnXYyVJCvty8lTA3GZWffBysyE2q30dXHJRNcU3uewiblLJ9YWoW4C3Vnw/132(String), 哟(String), 哟(String)
+2021-03-23 16:07:10 62122 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - ==>  Preparing: insert into user_info values ( ?, ?, ?, 3, ?, 123, 123, 20, 0, ?, 0, ?, now(), ?, now(), 0 )
+2021-03-23 16:07:10 62123 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - ==> Parameters: oE4Zr5xLxvzHMoHhzP98iW44TYqA(String), 哟(String), cmdChYSY5CUkbFpTVmhLLw==
+(String), 1(String), https://thirdwx.qlogo.cn/mmopen/vi_32/tqLxfY79Hh4PQI3tVD6W1hEBYqWPNJnXYyVJCvty8lTA3GZWffBysyE2q30dXHJRNcU3uewiblLJ9YWoW4C3Vnw/132(String), 哟(String), 哟(String)
+2021-03-23 16:32:50 1207684 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - ==>  Preparing: insert into user_info values ( ?, ?, ?, 3, ?, 123, 123, 20, 0, ?, 0, ?, now(), ?, now(), 0 )
+2021-03-23 16:32:50 1207720 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - ==> Parameters: oE4Zr55MwSaIRzTnKUSTPlEw7aMk(String), 昧熟(String), cmdChYSY5CUkbFpTVmhLLw==
+(String), 0(String), https://thirdwx.qlogo.cn/mmopen/vi_32/w3B43SrgKWkkSfxWSBGbcK4l5VicWK5qtVH4z5UHKDAwc4icK1nkdlSXpaKL9ZFibylCpicMTMJ1IUOLU0wrFsChlg/132(String), 昧熟(String), 昧熟(String)
+2021-03-23 16:32:50 1207816 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - <==    Updates: 1
+2021-03-23 16:46:22 2020403 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==>  Preparing: SELECT count(0) FROM order_info o1 INNER JOIN order_detail o2 ON o1.order_id = o2.order_id WHERE o1.is_delete = 0 AND o2.is_delete = 0
+2021-03-23 16:46:22 2020403 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==> Parameters: 
+2021-03-23 16:46:22 2020529 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - <==      Total: 1
+2021-03-23 16:46:22 2020532 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==>  Preparing: select * from order_info o1 inner join order_detail o2 on o1.order_id = o2.order_id where o1.is_delete = 0 and o2.is_delete = 0 LIMIT ?
+2021-03-23 16:46:22 2020532 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==> Parameters: 10(Integer)
+2021-03-23 16:46:22 2020540 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - <==      Total: 6
+2021-03-23 16:47:00 2058367 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==>  Preparing: SELECT count(0) FROM order_info o1 INNER JOIN order_detail o2 ON o1.order_id = o2.order_id WHERE o1.is_delete = 0 AND o2.is_delete = 0
+2021-03-23 16:47:00 2058367 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==> Parameters: 
+2021-03-23 16:47:00 2058369 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - <==      Total: 1
+2021-03-23 16:47:00 2058369 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==>  Preparing: select * from order_info o1 inner join order_detail o2 on o1.order_id = o2.order_id where o1.is_delete = 0 and o2.is_delete = 0 LIMIT ?
+2021-03-23 16:47:00 2058369 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==> Parameters: 2(Integer)
+2021-03-23 16:47:00 2058372 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - <==      Total: 2
+2021-03-23 16:47:03 2061229 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==>  Preparing: SELECT count(0) FROM order_info o1 INNER JOIN order_detail o2 ON o1.order_id = o2.order_id WHERE o1.is_delete = 0 AND o2.is_delete = 0
+2021-03-23 16:47:03 2061230 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==> Parameters: 
+2021-03-23 16:47:03 2061231 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - <==      Total: 1
+2021-03-23 16:47:03 2061232 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==>  Preparing: select * from order_info o1 inner join order_detail o2 on o1.order_id = o2.order_id where o1.is_delete = 0 and o2.is_delete = 0 LIMIT ?
+2021-03-23 16:47:03 2061232 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==> Parameters: 20(Integer)
+2021-03-23 16:47:03 2061236 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - <==      Total: 6
+2021-03-23 19:05:57 94306 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==>  Preparing: SELECT count(0) FROM order_info o1 INNER JOIN order_detail o2 ON o1.order_id = o2.order_id WHERE o1.is_delete = 0 AND o2.is_delete = 0
+2021-03-23 19:05:57 94334 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==> Parameters: 
+2021-03-23 19:05:57 94506 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - <==      Total: 1
+2021-03-23 19:05:57 94510 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==>  Preparing: select * from order_info o1 inner join order_detail o2 on o1.order_id = o2.order_id where o1.is_delete = 0 and o2.is_delete = 0 LIMIT ?
+2021-03-23 19:05:57 94511 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==> Parameters: 20(Integer)
+2021-03-23 19:05:57 94520 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-7]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - <==      Total: 6
+2021-03-23 19:13:30 46742 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==>  Preparing: SELECT count(0) FROM order_info o1 INNER JOIN order_detail o2 ON o1.order_id = o2.order_id WHERE o1.is_delete = 0 AND o2.is_delete = 0
+2021-03-23 19:13:30 46779 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==> Parameters: 
+2021-03-23 19:13:30 46884 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - <==      Total: 1
+2021-03-23 19:13:30 46888 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==>  Preparing: select * from order_info o1 inner join order_detail o2 on o1.order_id = o2.order_id where o1.is_delete = 0 and o2.is_delete = 0 LIMIT ?
+2021-03-23 19:13:30 46889 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==> Parameters: 20(Integer)
+2021-03-23 19:15:11 147379 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==>  Preparing: SELECT count(0) FROM hotel_info h1 WHERE is_delete = 0
+2021-03-23 19:15:11 147380 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - ==> Parameters: 
+2021-03-23 19:15:11 147604 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel_COUNT - <==      Total: 1
+2021-03-23 19:15:11 147606 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==>  Preparing: SELECT * from hotel_info h1 WHERE is_delete = 0 LIMIT ?
+2021-03-23 19:15:11 147607 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - ==> Parameters: 20(Integer)
+2021-03-23 19:15:11 147619 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.getHotelDetail - ====>  Preparing: select hotel_type_id 'hotelTypeId', hotel_type_name 'hotelTypeName', hotel_id 'hotelId', hotel_type_price 'hotelTypePrice', hotel_type_stock 'hotelTypeStock', img_id 'imgId', version from hotel_detail where is_delete = 0 and hotel_id = ?
+2021-03-23 19:15:11 147620 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.getHotelDetail - ====> Parameters: HT813726514678857728(String)
+2021-03-23 19:15:11 147647 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.getHotelDetail - <====      Total: 4
+2021-03-23 19:15:11 147648 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.getHotelDetail - ====>  Preparing: select hotel_type_id 'hotelTypeId', hotel_type_name 'hotelTypeName', hotel_id 'hotelId', hotel_type_price 'hotelTypePrice', hotel_type_stock 'hotelTypeStock', img_id 'imgId', version from hotel_detail where is_delete = 0 and hotel_id = ?
+2021-03-23 19:15:11 147649 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.getHotelDetail - ====> Parameters: HT813734057899720704(String)
+2021-03-23 19:15:11 147657 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.getHotelDetail - <====      Total: 5
+2021-03-23 19:15:11 147659 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.getHotelDetail - ====>  Preparing: select hotel_type_id 'hotelTypeId', hotel_type_name 'hotelTypeName', hotel_id 'hotelId', hotel_type_price 'hotelTypePrice', hotel_type_stock 'hotelTypeStock', img_id 'imgId', version from hotel_detail where is_delete = 0 and hotel_id = ?
+2021-03-23 19:15:11 147659 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.getHotelDetail - ====> Parameters: HT813806264004902912(String)
+2021-03-23 19:15:11 147661 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.getHotelDetail - <====      Total: 2
+2021-03-23 19:15:11 147662 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.getHotelDetail - ====>  Preparing: select hotel_type_id 'hotelTypeId', hotel_type_name 'hotelTypeName', hotel_id 'hotelId', hotel_type_price 'hotelTypePrice', hotel_type_stock 'hotelTypeStock', img_id 'imgId', version from hotel_detail where is_delete = 0 and hotel_id = ?
+2021-03-23 19:15:11 147662 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.getHotelDetail - ====> Parameters: HT821768477881663488(String)
+2021-03-23 19:15:11 147663 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.getHotelDetail - <====      Total: 0
+2021-03-23 19:15:11 147664 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.getHotelDetail - ====>  Preparing: select hotel_type_id 'hotelTypeId', hotel_type_name 'hotelTypeName', hotel_id 'hotelId', hotel_type_price 'hotelTypePrice', hotel_type_stock 'hotelTypeStock', img_id 'imgId', version from hotel_detail where is_delete = 0 and hotel_id = ?
+2021-03-23 19:15:11 147665 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.getHotelDetail - ====> Parameters: HT822054804825047040(String)
+2021-03-23 19:15:11 147666 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.getHotelDetail - <====      Total: 2
+2021-03-23 19:15:11 147667 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.hotel.mapper.HotelMapper.listHotel - <==      Total: 5
+2021-03-23 19:17:25 30108 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==>  Preparing: SELECT count(0) FROM order_info o1 INNER JOIN order_detail o2 ON o1.order_id = o2.order_id WHERE o1.is_delete = 0 AND o2.is_delete = 0
+2021-03-23 19:17:25 30140 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==> Parameters: 
+2021-03-23 19:17:25 30286 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - <==      Total: 1
+2021-03-23 19:17:25 30289 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==>  Preparing: select * from order_info o1 inner join order_detail o2 on o1.order_id = o2.order_id where o1.is_delete = 0 and o2.is_delete = 0 LIMIT ?
+2021-03-23 19:17:25 30289 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==> Parameters: 20(Integer)
+2021-03-23 19:19:25 18439 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==>  Preparing: SELECT count(0) FROM order_info o1 INNER JOIN order_detail o2 ON o1.order_id = o2.order_id WHERE o1.is_delete = 0 AND o2.is_delete = 0
+2021-03-23 19:19:25 18468 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==> Parameters: 
+2021-03-23 19:19:25 18502 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - <==      Total: 1
+2021-03-23 19:19:25 18507 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==>  Preparing: select * from order_info o1 inner join order_detail o2 on o1.order_id = o2.order_id where o1.is_delete = 0 and o2.is_delete = 0 LIMIT ?
+2021-03-23 19:19:25 18508 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==> Parameters: 20(Integer)
+2021-03-23 19:19:25 18515 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - <==      Total: 6
+2021-03-23 19:21:23 15441 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==>  Preparing: SELECT count(0) FROM order_info o1 INNER JOIN order_detail o2 ON o1.order_id = o2.order_id WHERE o1.is_delete = 0 AND o2.is_delete = 0
+2021-03-23 19:21:23 15470 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==> Parameters: 
+2021-03-23 19:21:23 15580 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - <==      Total: 1
+2021-03-23 19:21:23 15583 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==>  Preparing: select * from order_info o1 inner join order_detail o2 on o1.order_id = o2.order_id where o1.is_delete = 0 and o2.is_delete = 0 LIMIT ?
+2021-03-23 19:21:23 15584 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==> Parameters: 20(Integer)
+2021-03-23 19:21:23 15593 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - <==      Total: 6
+2021-03-23 19:24:47 17617 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==>  Preparing: SELECT count(0) FROM order_info o1 INNER JOIN order_detail o2 ON o1.order_id = o2.order_id WHERE o1.is_delete = 0 AND o2.is_delete = 0
+2021-03-23 19:24:47 17645 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==> Parameters: 
+2021-03-23 19:24:48 17800 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - <==      Total: 1
+2021-03-23 19:24:48 17804 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==>  Preparing: select * from order_info o1 inner join order_detail o2 on o1.order_id = o2.order_id where o1.is_delete = 0 and o2.is_delete = 0 LIMIT ?
+2021-03-23 19:24:48 17804 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==> Parameters: 20(Integer)
+2021-03-23 19:24:48 17812 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - <==      Total: 6
+2021-03-23 19:28:28 14662 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==>  Preparing: SELECT count(0) FROM order_info o1 INNER JOIN order_detail o2 ON o1.order_id = o2.order_id WHERE o1.is_delete = 0 AND o2.is_delete = 0
+2021-03-23 19:28:28 14694 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==> Parameters: 
+2021-03-23 19:28:28 14724 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - <==      Total: 1
+2021-03-23 19:28:28 14728 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==>  Preparing: select * from order_info o1 inner join order_detail o2 on o1.order_id = o2.order_id where o1.is_delete = 0 and o2.is_delete = 0 LIMIT ?
+2021-03-23 19:28:28 14728 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==> Parameters: 20(Integer)
+2021-03-23 19:28:28 14735 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - <==      Total: 6
+2021-03-23 19:37:18 22538 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==>  Preparing: SELECT count(0) FROM order_info o1 WHERE o1.is_delete = 0
+2021-03-23 19:37:18 22571 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==> Parameters: 
+2021-03-23 19:37:18 22600 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - <==      Total: 1
+2021-03-23 19:37:18 22603 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==>  Preparing: select * from order_info o1 where o1.is_delete = 0 LIMIT ?
+2021-03-23 19:37:18 22604 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==> Parameters: 20(Integer)
+2021-03-23 19:37:18 22611 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - ====>  Preparing: select * from order_detail where is_delete = 0
+2021-03-23 19:37:18 22612 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - ====> Parameters: 
+2021-03-23 19:37:18 22614 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - <====      Total: 6
+2021-03-23 19:37:18 22616 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - <==      Total: 3
+2021-03-23 19:38:22 16512 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==>  Preparing: SELECT count(0) FROM order_info o1 WHERE o1.is_delete = 0
+2021-03-23 19:38:22 16550 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==> Parameters: 
+2021-03-23 19:38:22 16563 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - <==      Total: 1
+2021-03-23 19:38:22 16567 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==>  Preparing: select * from order_info o1 where o1.is_delete = 0 LIMIT ?
+2021-03-23 19:38:22 16568 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==> Parameters: 20(Integer)
+2021-03-23 19:38:22 16575 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - ====>  Preparing: select * from order_detail where is_delete = 0 and order_id = ?
+2021-03-23 19:38:22 16576 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - ====> Parameters: order814583484071804928(String)
+2021-03-23 19:38:22 16578 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - <====      Total: 1
+2021-03-23 19:38:22 16579 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - ====>  Preparing: select * from order_detail where is_delete = 0 and order_id = ?
+2021-03-23 19:38:22 16579 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - ====> Parameters: order814588473892667392(String)
+2021-03-23 19:38:22 16581 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - <====      Total: 3
+2021-03-23 19:38:22 16583 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - ====>  Preparing: select * from order_detail where is_delete = 0 and order_id = ?
+2021-03-23 19:38:22 16583 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - ====> Parameters: order814610225620320256(String)
+2021-03-23 19:38:22 16585 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - <====      Total: 2
+2021-03-23 19:38:22 16585 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - <==      Total: 3
+2021-03-23 19:39:33 87955 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==>  Preparing: SELECT count(0) FROM order_info o1 WHERE o1.is_delete = 0
+2021-03-23 19:39:33 87955 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==> Parameters: 
+2021-03-23 19:39:33 87957 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - <==      Total: 1
+2021-03-23 19:39:33 87957 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==>  Preparing: select * from order_info o1 where o1.is_delete = 0 LIMIT ?
+2021-03-23 19:39:33 87958 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==> Parameters: 1(Integer)
+2021-03-23 19:39:33 87960 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - ====>  Preparing: select * from order_detail where is_delete = 0 and order_id = ?
+2021-03-23 19:39:33 87960 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - ====> Parameters: order814583484071804928(String)
+2021-03-23 19:39:33 87962 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - <====      Total: 1
+2021-03-23 19:39:33 87962 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-3]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - <==      Total: 1
+2021-03-23 19:39:42 96825 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==>  Preparing: SELECT count(0) FROM order_info o1 WHERE o1.is_delete = 0
+2021-03-23 19:39:42 96826 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==> Parameters: 
+2021-03-23 19:39:42 96827 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - <==      Total: 1
+2021-03-23 19:39:42 96827 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==>  Preparing: select * from order_info o1 where o1.is_delete = 0 LIMIT ?
+2021-03-23 19:39:42 96827 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==> Parameters: 2(Integer)
+2021-03-23 19:39:42 96829 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - ====>  Preparing: select * from order_detail where is_delete = 0 and order_id = ?
+2021-03-23 19:39:42 96829 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - ====> Parameters: order814583484071804928(String)
+2021-03-23 19:39:42 96831 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - <====      Total: 1
+2021-03-23 19:39:42 96832 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - ====>  Preparing: select * from order_detail where is_delete = 0 and order_id = ?
+2021-03-23 19:39:42 96832 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - ====> Parameters: order814588473892667392(String)
+2021-03-23 19:39:42 96834 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - <====      Total: 3
+2021-03-23 19:39:42 96834 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - <==      Total: 2
+2021-03-23 19:43:25 28413 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==>  Preparing: SELECT count(0) FROM order_info o1 WHERE o1.is_delete = 0
+2021-03-23 19:43:25 28438 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - ==> Parameters: 
+2021-03-23 19:43:25 28450 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder_COUNT - <==      Total: 1
+2021-03-23 19:43:25 28453 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==>  Preparing: select * from order_info o1 where o1.is_delete = 0 LIMIT ?
+2021-03-23 19:43:25 28454 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - ==> Parameters: 2(Integer)
+2021-03-23 19:43:25 28460 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - ====>  Preparing: select order_detail_id 'orderDetailId', goods_id 'goodsId1', goods_name 'goodsName1', goods_price 'goodsPrice1', goods_cnt 'goodsCnt1', goods_all_price 'goodsAllPrice' from order_detail where is_delete = 0 and order_id = ?
+2021-03-23 19:43:25 28460 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - ====> Parameters: order814583484071804928(String)
+2021-03-23 19:43:25 28462 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - <====      Total: 1
+2021-03-23 19:43:25 28463 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - ====>  Preparing: select order_detail_id 'orderDetailId', goods_id 'goodsId1', goods_name 'goodsName1', goods_price 'goodsPrice1', goods_cnt 'goodsCnt1', goods_all_price 'goodsAllPrice' from order_detail where is_delete = 0 and order_id = ?
+2021-03-23 19:43:25 28463 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - ====> Parameters: order814588473892667392(String)
+2021-03-23 19:43:25 28465 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.getOrderDetail - <====      Total: 3
+2021-03-23 19:43:25 28465 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-1]
+                    com.example.demo.order.mapper.OrderMapper.listOrder - <==      Total: 2
