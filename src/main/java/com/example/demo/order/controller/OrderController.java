@@ -49,12 +49,13 @@ public class OrderController {
      */
     @ApiOperation("列表查询订单信息")
     @PostMapping("/listOrder")
-    public AppResponse listOrder(@RequestParam(value = "pageNo",required = false) Integer pageNo,
+    public AppResponse listOrder(@RequestBody OrderInfo orderInfo,
+                                 @RequestParam(value = "pageNo",required = false) Integer pageNo,
                                  @RequestParam(value = "pageSize",required = false) Integer pageSize){
         try{
             pageNo = (pageNo == null)? 1 : pageNo;
             pageSize= (pageSize == null)? 20 : pageSize;
-            return orderService.listOrder(pageNo,pageSize);
+            return orderService.listOrder(orderInfo,pageNo,pageSize);
         }catch (Exception e){
             logger.error("查询失败");
             System.out.println(e.toString());

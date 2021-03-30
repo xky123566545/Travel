@@ -120,6 +120,7 @@
         from hotel_info h1
         where h1.hotel_id = #{hotelId}
         and h1.is_delete = 0
+        order by h1.create_time desc
     </select>
 <!--    列表查询酒店详情-->
     <select id="listHotel" resultMap="hotelMap">
@@ -154,6 +155,7 @@
             </if>
         </if>
         </where>
+        order by h1.create_time desc
     </select>
 <!--    子表-->
     <select id="getHotelDetail" resultType="map" parameterType="map">

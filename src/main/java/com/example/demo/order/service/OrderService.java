@@ -16,7 +16,7 @@ public interface OrderService {
     /**
      * 列表查询订单信息
      */
-    AppResponse listOrder(Integer pageNo,Integer pageSize);
+    AppResponse listOrder(OrderInfo orderInfo,Integer pageNo,Integer pageSize);
     /**
      * 修改订单状态
      */

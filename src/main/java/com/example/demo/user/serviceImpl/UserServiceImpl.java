@@ -1,5 +1,7 @@
 package com.example.demo.user.serviceImpl;
 
+import com.example.demo.login.entity.LoginEntity;
+import com.example.demo.login.mapper.LoginMapper;
 import com.example.demo.user.bean.UserInfo;
 import com.example.demo.user.mapper.UserMapper;
 import com.example.demo.user.service.UserService;
@@ -17,6 +19,8 @@ public class UserServiceImpl implements UserService {
     @Resource
     private UserMapper userMapper;
 
+    @Resource
+    private LoginMapper loginMapper;
     /**
     * @Description: 新增用户
     * @Param:  userInfo
@@ -101,4 +105,28 @@ public class UserServiceImpl implements UserService {
         }
         return AppResponse.success("删除成功");
     }
+
+    /**
+     * 修改密码
+     * @param userName
+     * @param rawPassword
+     * @param newPassword
+     * @return
+     */
+    @Override
+    public AppResponse updatePassword(String userName, String rawPassword, String newPassword) {
+        LoginEntity loginEntity = loginMapper.findByUserName(userName);
+        String password = AESUtil.decrypt(loginEntity.getPassword());
+        if (rawPassword.equals(password)){
+            String newPasswordE = AESUtil.encrypt(newPassword);
+            if (userMapper.updatePassword(userName,newPasswordE) == 0){
+                return AppResponse.bizError("修改失败");
+            }
+            return AppResponse.success("修改成功");
+        }
+        else {
+            return AppResponse.bizError("密码错误，请重新输入");
+        }
+    }
+
 }

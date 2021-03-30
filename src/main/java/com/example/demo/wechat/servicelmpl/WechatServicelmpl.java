@@ -1,5 +1,6 @@
 package com.example.demo.wechat.servicelmpl;
 
+import com.example.demo.area.entity.WeatherInfo;
 import com.example.demo.wechat.entity.WechatInfo;
 import com.example.demo.wechat.mapper.WecharMapper;
 import com.example.demo.wechat.service.WechatService;
@@ -21,4 +22,5 @@ public class WechatServicelmpl  implements WechatService {
             System.out.println("新增失败");
         }
     }
+
 }

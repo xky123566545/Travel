@@ -3,9 +3,9 @@ package com.example.demo.user.controller;
 import com.example.demo.user.bean.UserInfo;
 import com.example.demo.user.service.UserService;
 import com.example.demo.util.AppResponse;
-import com.sun.org.slf4j.internal.Logger;
-import com.sun.org.slf4j.internal.LoggerFactory;
 import io.swagger.annotations.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -114,6 +114,18 @@ public class UserController {
             return userService.deleteUser(userId,updateUser);
         }catch (Exception e){
             logger.error("删除失败，请重试");
+            System.out.println(e.toString());
+            throw e;
+        }
+    }
+
+    @ApiOperation(value = "修改密码")
+    @PostMapping("/updatePassword")
+    public AppResponse updatePassword(String userName,String rawPassword,String newPassword){
+        try{
+            return userService.updatePassword(userName,rawPassword,newPassword);
+        }catch (Exception e){
+            logger.error("修改失败");
             System.out.println(e.toString());
             throw e;
         }

@@ -79,4 +79,8 @@ public class CartInfo {
      * 版本号
      */
     private String version;
+    /**
+     * 酒店名称
+     */
+    private String hotelName;
 }

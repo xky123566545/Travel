@@ -2,10 +2,12 @@ package com.example.demo.wechat.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.example.demo.area.entity.WeatherInfo;
 import com.example.demo.util.AESUtil;
 import com.example.demo.util.AppResponse;
 import com.example.demo.wechat.entity.Constants;
 import com.example.demo.wechat.entity.WechatInfo;
+import com.example.demo.wechat.mapper.WecharMapper;
 import com.example.demo.wechat.service.WechatService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -18,10 +20,7 @@ import org.springframework.http.converter.json.MappingJackson2HttpMessageConvert
 import org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter;
 import org.springframework.http.converter.xml.SourceHttpMessageConverter;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
@@ -52,6 +51,8 @@ WeCatController {
 	@Resource
 	private WechatService wechatService;
 
+	@Resource
+	private WecharMapper wecharMapper;
 	/**
 	 * wx ：读取Appid相关配置信息静态类
 	 */
@@ -63,6 +64,10 @@ WeCatController {
 	 */
 	private static Object quert;
 
+	/**
+	 * 用户账号密码等信息
+	 */
+	private static WechatInfo wechatInfo1;
 	/**
 	 * 微信登录页
 	 */
@@ -131,6 +136,8 @@ WeCatController {
 		WechatInfo wechatInfo = JSON.toJavaObject(infoJson,WechatInfo.class);
 		wechatInfo.setPassword(AESUtil.encrypt("123456"));
 		wechatService.saveUser(wechatInfo);
+		wechatInfo1 = wecharMapper.getUser(wechatInfo);
+		wechatInfo1.setPassword(AESUtil.decrypt(wechatInfo.getPassword()));
 		return "登录成功";
 	}
 
@@ -150,10 +157,10 @@ WeCatController {
 	@ResponseBody
 	public String getInfoJson(HttpSession session) {
 		System.out.println("666");
-		if (quert == null) {
+		if (wechatInfo1 == null) {
 			return "no";
 		}
-		return quert.toString();
+		return wechatInfo1.toString();
 	}
 
 	/**

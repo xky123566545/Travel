@@ -71,4 +71,8 @@ public class OrderDetail {
      * 版本号
      */
     private String version;
+    /**
+     * 图片路径
+     */
+    private String imgPath;
 }

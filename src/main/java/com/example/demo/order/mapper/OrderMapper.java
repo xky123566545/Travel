@@ -36,7 +36,7 @@ public interface OrderMapper {
     /**
      * 列表查询订单信息
      */
-    List<OrderInfo> listOrder();
+    List<OrderInfo> listOrder(OrderInfo orderInfo);
     /**
      * 修改订单状态
      */

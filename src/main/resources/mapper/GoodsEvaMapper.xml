@@ -38,6 +38,7 @@
         select hotel_id
         from hotel_detail
         where hotel_type_id = #{goodsId}
+        order by create_time desc
     </select>
 <!--    查询订单评价详情-->
     <select id="getGoodsEva" resultType="com.example.demo.goodseva.entity.GoodsEvaInfo">

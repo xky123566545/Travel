@@ -58,4 +58,8 @@ public interface UserMapper {
      * 删除用户
      */
     int deleteUser(@Param("list") List<String> list,String updateUser);
+    /**
+     * 修改密码
+     */
+    int updatePassword(@Param("userName") String userName,@Param("password") String password);
 }

@@ -61,7 +61,7 @@ public class ScenicController {
     @ApiOperation(value = "列表查询景点信息")
     @PostMapping("/getScenic")
     public AppResponse getScenic(@RequestBody ScenicInfo scenicInfo,
-            @RequestParam(value = "pageNo",required = false) Integer pageNo,
+            @RequestParam(value = "currPage",required = false) Integer pageNo,
             @RequestParam(value = "pageSize",required = false)Integer pageSize){
         try{
             pageNo = (pageNo == null)? 1 : pageNo;

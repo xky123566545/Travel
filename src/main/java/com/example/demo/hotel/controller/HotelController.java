@@ -80,7 +80,7 @@ public class HotelController {
     @ApiOperation("列表查询酒店信息")
     @PostMapping("/listHotel")
     public AppResponse listHotel(@RequestBody HotelInfo hotelInfo,
-                                 @RequestParam(value = "pageNo",required = false) Integer pageNo,
+                                 @RequestParam(value = "currPage",required = false) Integer pageNo,
                                  @RequestParam(value = "pageSize",required = false) Integer pageSize){
         try{
             pageNo = (pageNo == null)? 1 : pageNo;

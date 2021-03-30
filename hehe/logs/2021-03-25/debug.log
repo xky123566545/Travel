@@ -508,3 +508,30 @@
                     com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
 2021-03-25 17:50:55 53198 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-2]
                     com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-03-25 20:22:04 614684 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - ==>  Preparing: insert into user_info values ( ?, ?, ?, 3, ?, 123, 123, 20, 0, ?, 0, ?, now(), ?, now(), 0 )
+2021-03-25 20:22:04 614767 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-8]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - ==> Parameters: oE4Zr5xLxvzHMoHhzP98iW44TYqA(String), 哟(String), cmdChYSY5CUkbFpTVmhLLw==
+(String), 1(String), https://thirdwx.qlogo.cn/mmopen/vi_32/tqLxfY79Hh4PQI3tVD6W1hEBYqWPNJnXYyVJCvty8lTA3GZWffBysyE2q30dXHJRNcU3uewiblLJ9YWoW4C3Vnw/132(String), 哟(String), 哟(String)
+2021-03-25 20:56:33 28389 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - ==>  Preparing: insert into user_info values ( ?, ?, ?, 3, ?, 123, 123, 20, 0, ?, 0, ?, now(), ?, now(), 0 )
+2021-03-25 20:56:33 28419 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - ==> Parameters: oE4Zr5xLxvzHMoHhzP98iW44TYqA(String), 哟(String), cmdChYSY5CUkbFpTVmhLLw==
+(String), 1(String), https://thirdwx.qlogo.cn/mmopen/vi_32/tqLxfY79Hh4PQI3tVD6W1hEBYqWPNJnXYyVJCvty8lTA3GZWffBysyE2q30dXHJRNcU3uewiblLJ9YWoW4C3Vnw/132(String), 哟(String), 哟(String)
+2021-03-25 20:56:33 28611 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.wechat.mapper.WecharMapper.getUser - ==>  Preparing: select user_name 'nickName', user_password 'password' from user_info where user_name = ?
+2021-03-25 20:56:33 28611 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.wechat.mapper.WecharMapper.getUser - ==> Parameters: 哟(String)
+2021-03-25 20:56:33 28684 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-9]
+                    com.example.demo.wechat.mapper.WecharMapper.getUser - <==      Total: 1
+2021-03-25 20:58:52 30969 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - ==>  Preparing: insert into user_info values ( ?, ?, ?, 3, ?, 123, 123, 20, 0, ?, 0, ?, now(), ?, now(), 0 )
+2021-03-25 20:58:53 31014 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.wechat.mapper.WecharMapper.saveUser - ==> Parameters: oE4Zr5xLxvzHMoHhzP98iW44TYqA(String), 哟(String), cmdChYSY5CUkbFpTVmhLLw==
+(String), 1(String), https://thirdwx.qlogo.cn/mmopen/vi_32/tqLxfY79Hh4PQI3tVD6W1hEBYqWPNJnXYyVJCvty8lTA3GZWffBysyE2q30dXHJRNcU3uewiblLJ9YWoW4C3Vnw/132(String), 哟(String), 哟(String)
+2021-03-25 20:58:53 31249 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.wechat.mapper.WecharMapper.getUser - ==>  Preparing: select user_name 'nickName', user_password 'password' from user_info where user_name = ?
+2021-03-25 20:58:53 31250 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.wechat.mapper.WecharMapper.getUser - ==> Parameters: 哟(String)
+2021-03-25 20:58:53 31261 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8081-exec-4]
+                    com.example.demo.wechat.mapper.WecharMapper.getUser - <==      Total: 1

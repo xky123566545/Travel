@@ -79,9 +79,6 @@ public class ScenicServicelmpl implements ScenicService {
      */
     @Override
     public AppResponse updateScenic(ScenicInfo scenicInfo) {
-        if (scenicMapper.countScenicName(scenicInfo.getScenicName()) != 0){
-            return AppResponse.bizError("景点名称已存在，请重试");
-        }
         if (scenicMapper.updateScenic(scenicInfo) == 0){
             return AppResponse.bizError("修改失败，请重试");
         }

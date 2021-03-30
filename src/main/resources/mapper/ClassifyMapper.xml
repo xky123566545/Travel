@@ -35,6 +35,8 @@
         select *
         from classify_info
         where classify_id = #{classifyId}
+        and is_delete = 0
+        order by create_time desc
     </select>
 <!--    查询用户信息列表-->
     <select id="getClassify" parameterType="java.util.Map" resultType="com.example.demo.goodsclassify.entity.ClassifyInfo">

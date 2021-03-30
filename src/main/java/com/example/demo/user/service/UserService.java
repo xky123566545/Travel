@@ -46,4 +46,8 @@ public interface UserService {
     * @Date: 2021/2/19
     */
     AppResponse deleteUser(String userId,String updateUser);
+    /**
+     * 修改密码
+     */
+    AppResponse updatePassword(String userName,String rawPassword,String newPassword);
 }

@@ -101,6 +101,7 @@
         </if>
             and is_delete = 0
         </where>
+        order by create_time desc
     </select>
 <!--    修改景点信息-->
     <update id="updateScenic" parameterType="com.example.demo.scenic.entity.ScenicInfo">

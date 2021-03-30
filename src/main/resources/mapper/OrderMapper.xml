@@ -32,17 +32,18 @@
                 (
                     #{item.orderDetailId},
                     #{item.orderId},
-                    #{item.goodsId},
-                    #{item.goodsName},
-                    #{item.goodsPrice},
-                    #{item.goodsCnt},
+                    #{item.goodsId1},
+                    #{item.goodsName1},
+                    #{item.goodsPrice1},
+                    #{item.goodsCnt1},
                     0,
                     0,
                     #{item.createUser},
                     now(),
                     #{item.createUser},
                     now(),
-                    0
+                    0,
+                    #{item.imgPath}
                 )
             </foreach>
     </insert>
@@ -83,7 +84,7 @@
         <result property="cartId" column="cart_id" jdbcType="VARCHAR"></result>
         <result property="userId" column="user_id" jdbcType="VARCHAR"></result>
         <result property="createUser" column="create_user" jdbcType="VARCHAR"></result>
-        <result property="createTime" column="create_time" jdbcType="DATE"></result>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"></result>
         <result property="version" column="version" jdbcType="VARCHAR"></result>
         <collection property="orderDetails" ofType="com.example.demo.order.entity.OrderDetail"
         javaType="list" select="getOrderDetail" column="{orderId} = order_id">
@@ -94,6 +95,7 @@
             <result property="goodsPrice1" column="goods_price" jdbcType="VARCHAR"></result>
             <result property="goodsCnt1" column="goods_cnt" jdbcType="VARCHAR"></result>
             <result property="goodsAllPrice" column="goods_all_price" jdbcType="VARCHAR"></result>
+            <result property="imgPath" column="img_path" jdbcType="VARCHAR"></result>
         </collection>
     </resultMap>
 <!--    列表查询订单信息-->
@@ -101,19 +103,22 @@
         select *
         from order_info o1
         where o1.is_delete = 0
-        order by create_time
+        <if test="userId != null and userId != ''">
+            and o1.user_id = #{userId}
+        </if>
+        order by create_time desc
     </select>
 <!--    子表-->
     <select id="getOrderDetail" parameterType="map" resultType="map">
         select
-            order_detail_id 'orderDetailId',
-            goods_id        'goodsId1',
-            goods_name      'goodsName1',
-            goods_price     'goodsPrice1',
-            goods_cnt       'goodsCnt1',
-            goods_all_price 'goodsAllPrice'
-
-        from order_detail
+            h1.order_detail_id 'orderDetailId',
+            h1.goods_id        'goodsId1',
+            h1.goods_name      'goodsName1',
+            h1.goods_price     'goodsPrice1',
+            h1.goods_cnt       'goodsCnt1',
+            h1.goods_all_price 'goodsAllPrice',
+            h1.img_path         'imgPath'
+        from order_detail h1
         where is_delete = 0
         and order_id = #{orderId}
     </select>

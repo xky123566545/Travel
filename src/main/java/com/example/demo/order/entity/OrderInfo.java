@@ -92,5 +92,9 @@ public class OrderInfo {
      */
     @Transient
     private List<OrderDetail> orderDetails;
+    /**
+     * 图片路径
+     */
+    private String imgPath;
 
 }

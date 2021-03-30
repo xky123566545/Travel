@@ -23,5 +23,12 @@
             0
         )
     </insert>
-
+<!--查询账号密码-->
+    <select id="getUser" parameterType="com.example.demo.wechat.entity.WechatInfo" resultType="com.example.demo.wechat.entity.WechatInfo">
+        select
+            user_name       'nickName',
+            user_password   'password'
+        from user_info
+        where user_name = #{nickName}
+    </select>
 </mapper>

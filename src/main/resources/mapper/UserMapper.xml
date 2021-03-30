@@ -91,6 +91,7 @@
         </if>
             and is_delete = 0
         </where>
+        order by u.create_time desc
     </select>
 <!--    修改用户信息-->
     <update id="updateUser" parameterType="com.example.demo.user.bean.UserInfo">
@@ -103,7 +104,6 @@
             user_email   = #{userEmail},
             user_age     = #{userAge},
             user_picture = #{userPicture},
-            user_password= #{userPassword},
             update_user  = #{userId},
             update_time  = now(),
             version      = version + 1
@@ -123,5 +123,12 @@
             <foreach collection="list" index="index" separator="," item="item" open="(" close=")">
                 #{item}
             </foreach>
+    </update>
+<!--    修改密码-->
+    <update id="updatePassword" parameterType="java.lang.String">
+        update user_Info
+        set
+            user_password = #{password}
+        where user_name = #{userName}
     </update>
 </mapper>

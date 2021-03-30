@@ -40,7 +40,8 @@
             goods_name,
             goods_price,
             img_path,
-            goods_star
+            goods_star,
+            hotel_name
         )
         values
         (
@@ -57,7 +58,8 @@
             #{goodsName},
             #{goodsPrice},
             #{imgPath},
-            #{goodsStar}
+            #{goodsStar},
+            #{hotelName}
         )
     </insert>
 <!--    计算商品总价-->
@@ -73,6 +75,8 @@
         select *
         from cart_info c1
         where is_delete = 0
+        and user_name = #{cartInfo.userName}
+        order by create_time desc
     </select>
 <!--    修改购物车商品数量-->
     <update id="updateCart" parameterType="com.example.demo.cart.entity.CartInfo">

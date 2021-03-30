@@ -11,6 +11,7 @@ import com.example.demo.util.PagedData;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestBody;
 
 import javax.annotation.Resource;
 import java.util.*;
@@ -40,6 +41,7 @@ public class OrderServicelmpl implements OrderService {
         List<String> goodsPrice = Arrays.asList(orderInfo.getGoodsPrice().split(","));
         List<String> goodsCnt  = Arrays.asList(orderInfo.getGoodsCnt().split(","));
         List<String> goodsName = Arrays.asList(orderInfo.getGoodsName().split(","));
+        List<String> imgPath = Arrays.asList(orderInfo.getImgPath().split(","));
         List<String> goodsDetailId = new ArrayList<>();
         //存储int类型的商品数量
         List<Integer> goodsCntInt = new ArrayList<>();
@@ -67,7 +69,7 @@ public class OrderServicelmpl implements OrderService {
             orderDetail.setGoodsPrice1(goodsPrice.get(i));
             orderDetail.setCreateUser(orderInfo.getCreateUser());
             orderDetail.setGoodsName1(goodsName.get(i));
-
+            orderDetail.setImgPath(imgPath.get(i));
             orderDetails.add(orderDetail);
         }
 
@@ -113,9 +115,9 @@ public class OrderServicelmpl implements OrderService {
      * @return
      */
     @Override
-    public AppResponse listOrder(Integer pageNo, Integer pageSize) {
+    public AppResponse listOrder(OrderInfo orderInfo,Integer pageNo, Integer pageSize) {
         Page<OrderInfo> page = PageHelper.startPage(pageNo,pageSize).doSelectPage(() ->{
-            orderMapper.listOrder();
+            orderMapper.listOrder(orderInfo);
         });
         return AppResponse.success("查询成功", PagedData.getInstance(page));
     }

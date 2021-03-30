@@ -61,16 +61,16 @@ public class AreaController {
 
             Map<String,String> param= new HashMap<>();
             param.put("北京市","beijing");
-            param.put("天津市","tianjing");
+            param.put("天津市","tianjin");
             param.put("石家庄市","shijiazhuang");
             param.put("唐山市","tangshan");
             param.put("秦皇岛市","qinhuangdao");
             param.put("邯郸市","handan");
-            param.put("邢台市","xintai");
+            param.put("邢台市","xingtai");
             param.put("保定市","baoding");
             param.put("张家口市","zhangjiakou");
             param.put("承德市","chengde");
-            param.put("沧州市","cangshou");
+            param.put("沧州市","cangzhou");
             param.put("廊坊市","langfang");
             param.put("衡水市","hengshui");
             param.put("太原市","taiyuan");
@@ -115,7 +115,7 @@ public class AreaController {
             param.put("南昌市","nanchang");
             param.put("景德镇市","jingdezhen");
             param.put("萍乡市","pingxiang");
-            param.put("济南市","jinang");
+            param.put("济南市","jinan");
             param.put("青岛市","qingdao");
             param.put("郑州市","zhengzhou");
             param.put("开封市","kaifeng");
@@ -149,7 +149,7 @@ public class AreaController {
             param.put("揭阳市","jieyang");
             param.put("云浮市","yunfu");
             param.put("南宁市","nangning");
-            param.put("柳州市","liuzhoushi");
+            param.put("柳州市","liuzhou");
             param.put("桂林市","guilin");
             param.put("海口市","haikou");
             param.put("三亚市","sanya");
@@ -165,7 +165,7 @@ public class AreaController {
             param.put("曲靖市","qujing");
             param.put("玉溪市","yuxi");
             param.put("保山市","baoshan");
-            param.put("西安市","xian");
+            param.put("西安市","xianqu1");
             param.put("铜川市","tongchuan");
             param.put("宝鸡市","baoji");
             param.put("兰州市","lanzhou");

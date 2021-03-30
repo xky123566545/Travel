@@ -9,4 +9,8 @@ public interface WecharMapper {
      * 新增微信用户信息
      */
     int saveUser(WechatInfo wechatInfo);
+    /**
+     * 获取当前人的账号密码
+     */
+    WechatInfo getUser(WechatInfo wechatInfo);
 }
